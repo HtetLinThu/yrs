@@ -1,9 +1,9 @@
-import 'vant/lib/index.css';
+import "vant/lib/index.css";
 import "./assets/css/main.css";
 
 import { createApp } from "vue";
 import { createPinia } from "pinia";
-import { Tabbar, TabbarItem, NavBar } from 'vant';
+import { Tabbar, TabbarItem, NavBar } from "vant";
 
 import App from "./App.vue";
 import router from "./router";

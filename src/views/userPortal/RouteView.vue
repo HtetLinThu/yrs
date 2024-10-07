@@ -1,4 +1,6 @@
 <template>
+  <van-nav-bar title="Route" :fixed="true" />
+
   <main>Route page</main>
 </template>
 
