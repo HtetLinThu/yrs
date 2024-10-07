@@ -1,5 +1,5 @@
 <template>
-  <main>About page</main>
+  <main>Profile page</main>
 </template>
 
 <script setup></script>
