@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --var-theme: linear-gradient(90deg, #3cacb6 0%, #8ccead 90%);
+  --van-primary-color: var(var(--var-theme)) !important;
+  --van-nav-bar-background: var(--var-theme) !important;
+}
