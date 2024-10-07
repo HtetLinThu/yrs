@@ -52,3 +52,5 @@ userPortalAxiosInstance.interceptors.response.use(
     return Promise.reject(error);
   }
 );
+
+export default userPortalAxiosInstance;
