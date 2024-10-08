@@ -3,6 +3,19 @@
 
   <div class="pt-[46px]"></div>
 
+  <van-search v-model="search" show-action label="" placeholder="">
+    <template #action>
+      <van-button
+        type="primary"
+        size="small"
+        color="#1CBC9B"
+        class="mb-1"
+        @click="onSearch"
+        >Search</van-button
+      >
+    </template>
+  </van-search>
+
   <van-pull-refresh
     v-model="refreshing"
     pulling-text="Pull to refresh"
@@ -11,17 +24,36 @@
     success-text="Successfully loaded"
     @refresh="onRefresh"
   >
-    <van-list
-      v-model:loading="loading"
-      v-model:error="error"
-      :finished="finished"
-      loading-text="Loading"
-      finished-text=""
-      :error-text="errorMessage"
-      @load="onLoad"
-    >
-      <van-cell v-for="item in list" :key="item.slug" :title="item.title" />
-    </van-list>
+    <div class="p-3">
+      <van-list
+        v-model:loading="loading"
+        v-model:error="error"
+        :finished="finished"
+        loading-text="Loading"
+        finished-text=""
+        :error-text="errorMessage"
+        @load="onLoad"
+      >
+        <van-cell-group
+          inset
+          class="mb-3 mx-0"
+          v-for="item in list"
+          :key="item.slug"
+        >
+          <van-cell>
+            <template #icon>
+              <img :src="item.icon" alt="" class="w-8 h-8 mr-1 mt-1">
+            </template>
+            <template #title>
+              <van-text-ellipsis :content="item.title" />
+            </template>
+            <template #label>
+              <van-text-ellipsis :content="item.description" />
+            </template>
+          </van-cell>
+        </van-cell-group>
+      </van-list>
+    </div>
   </van-pull-refresh>
 </template>
 
@@ -31,6 +63,7 @@ import { ref } from "vue";
 
 const stationStore = useStationStore();
 const queryParameters = ref({});
+const search = ref("");
 const list = ref([]);
 const page = ref(1);
 const last_page = ref(null);
@@ -48,6 +81,7 @@ const onLoad = async () => {
     refreshing.value = false;
   }
 
+  queryParameters.value.search = search.value;
   queryParameters.value.page = page.value;
 
   await stationStore.get(queryParameters.value);
@@ -60,7 +94,7 @@ const onLoad = async () => {
     page.value++;
   }
 
-  if(stationStore.getErrorMessage){
+  if (stationStore.getErrorMessage) {
     errorMessage.value = stationStore.getErrorMessage;
     error.value = true;
   }
@@ -71,6 +105,13 @@ const onLoad = async () => {
 const onRefresh = () => {
   finished.value = false;
   loading.value = true;
+  onLoad();
+};
+
+const onSearch = () => {
+  finished.value = false;
+  loading.value = true;
+  refreshing.value = true;
   onLoad();
 };
 </script>
