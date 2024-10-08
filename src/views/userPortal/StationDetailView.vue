@@ -22,12 +22,48 @@
           {{ stationDetail.description }}
         </p>
       </div>
+
+      <div class="p-3 relative" style="top: -74px">
+        <div id="map" class="h-40 mb-3"></div>
+
+        <van-tabs>
+          <van-tab>
+            <template #title>Clockwise</template>
+            <div class="py-2">
+              <van-cell-group inset class="mb-3 mx-0">
+                <van-cell
+                  v-for="route_schedule in stationDetail.clockwise_route_schedules"
+                  :key="route_schedule.slug"
+                  :title="route_schedule.title"
+                  :label="route_schedule.time"
+                >
+                </van-cell>
+              </van-cell-group>
+            </div>
+          </van-tab>
+
+          <van-tab>
+            <template #title>Anticlockwise</template>
+            <div class="py-2">
+              <van-cell-group inset class="mb-3 mx-0">
+                <van-cell
+                  v-for="route_schedule in stationDetail.anticlockwise_route_schedules"
+                  :key="route_schedule.slug"
+                  :title="route_schedule.title"
+                  :label="route_schedule.time"
+                >
+                </van-cell>
+              </van-cell-group>
+            </div>
+          </van-tab>
+        </van-tabs>
+      </div>
     </div>
   </van-pull-refresh>
 </template>
 
 <script setup>
-import { onMounted, ref } from "vue";
+import { nextTick, onMounted, ref } from "vue";
 import { useRouter, useRoute } from "vue-router";
 import { useStationDetailStore } from "@/stores/userPortal/stationDetailStore";
 
@@ -45,6 +81,37 @@ const fetchStationDetail = async () => {
   stationDetail.value = stationDetailStore.getResponse?.data;
   errorMessage.value = stationDetailStore.getErrorMessage;
   refreshing.value = false;
+
+  if (stationDetail != null) {
+    nextTick(() => {
+      initMap();
+    });
+  }
+};
+
+const initMap = () => {
+  const map = L.map("map").setView(
+    [stationDetail.value.latitude, stationDetail.value.longitude],
+    15
+  );
+
+  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    attribution:
+      '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+  }).addTo(map);
+
+  // L.tileLayer('https://api.maptiler.com/maps/streets-v2/{z}/{x}/{y}.png?key=lGRhuk24oNhhSOVUzxcs').addTo(map);
+
+  var stationMarker = L.icon({
+    iconUrl: "/src/assets/image/station-marker.png",
+    iconSize: [32, 32],
+    iconAnchor: [16, 32],
+    popupAnchor: [0, -32],
+  });
+
+  L.marker([stationDetail.value.latitude, stationDetail.value.longitude], {
+    icon: stationMarker,
+  }).addTo(map);
 };
 
 const onRefresh = () => {
