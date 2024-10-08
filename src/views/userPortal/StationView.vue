@@ -40,7 +40,7 @@
           v-for="item in list"
           :key="item.slug"
         >
-          <van-cell>
+          <van-cell is-link :to="`/station/${item.slug}`">
             <template #icon>
               <img :src="item.icon" alt="" class="w-8 h-8 mr-1 mt-1">
             </template>
@@ -100,6 +100,7 @@ const onLoad = async () => {
   }
 
   loading.value = false;
+  refreshing.value = false;
 };
 
 const onRefresh = () => {

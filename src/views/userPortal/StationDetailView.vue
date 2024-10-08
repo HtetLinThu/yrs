@@ -1,0 +1,59 @@
+<template>
+  <van-nav-bar
+    title="Station Detail"
+    :fixed="true"
+    left-text=""
+    left-arrow
+    @click-left="onClickLeft"
+  />
+
+  <van-pull-refresh
+    v-model="refreshing"
+    pulling-text="Pull to refresh"
+    loosing-text="Pull to refresh"
+    loading-text="Loading"
+    success-text="Successfully loaded"
+    @refresh="onRefresh"
+  >
+    <div v-if="stationDetail != null">
+      <div class="bg-theme pt-14 pb-20">
+        <h6 class="text-center text-white">{{ stationDetail.title }}</h6>
+        <p class="text-center text-white text-xs mb2">
+          {{ stationDetail.description }}
+        </p>
+      </div>
+    </div>
+  </van-pull-refresh>
+</template>
+
+<script setup>
+import { onMounted, ref } from "vue";
+import { useRouter, useRoute } from "vue-router";
+import { useStationDetailStore } from "@/stores/userPortal/stationDetailStore";
+
+const router = useRouter();
+const route = useRoute();
+const stationDetailStore = useStationDetailStore();
+const stationDetail = ref(null);
+const errorMessage = ref(null);
+const refreshing = ref(false);
+
+const onClickLeft = () => history.back();
+
+const fetchStationDetail = async () => {
+  await stationDetailStore.get(route.params.slug);
+  stationDetail.value = stationDetailStore.getResponse?.data;
+  errorMessage.value = stationDetailStore.getErrorMessage;
+  refreshing.value = false;
+};
+
+const onRefresh = () => {
+  fetchStationDetail();
+};
+
+onMounted(() => {
+  fetchStationDetail();
+});
+</script>
+
+<style scope></style>
