@@ -12,3 +12,7 @@
   --van-cell-label-margin-top: 0px !important;
   --van-nav-bar-icon-color: #fff !important;
 }
+
+.van-tabs--line .van-tabs__wrap{
+  border-radius: 10px !important;
+}

@@ -59,6 +59,16 @@
         </van-tabs>
       </div>
     </div>
+
+    <div v-if="errorMessage != null" class="pt-14 px-3 pb-20">
+      <div
+        class="bg-white rounded-lg shadow-md flex justify-center items-center"
+      >
+        <div>
+          <van-empty image="error" :description="errorMessage" class="text-center" />
+        </div>
+      </div>
+    </div>
   </van-pull-refresh>
 </template>
 
