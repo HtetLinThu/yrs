@@ -30,7 +30,8 @@
         :error-text="errorMessage"
         @load="onLoad"
       >
-        <StationItem :list="list" />
+        <StationItem v-if="storeName == 'stationStore'" :list="list" />
+        <RouteItem v-if="storeName == 'routeStore'" :list="list" />
       </van-list>
     </div>
   </van-pull-refresh>
@@ -40,11 +41,13 @@
 import { ref } from "vue";
 import { useStoreHelper } from "@/helpers/useStoreHelper";
 import StationItem from "./StationItem.vue";
+import RouteItem from "./RouteItem.vue";
 
 const props = defineProps({
   storeName: { type: String, required: true },
 });
 
+const storeName = ref(props.storeName);
 const ListStore = useStoreHelper(props.storeName);
 const queryParameters = ref({});
 const search = ref("");
