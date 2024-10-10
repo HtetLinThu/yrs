@@ -22,7 +22,10 @@ import {
   Icon,
   Step,
   Steps,
-  Dialog
+  Dialog,
+  Popup,
+  Field,
+  Picker
 } from "vant";
 
 import App from "./App.vue";
@@ -51,6 +54,9 @@ app.use(Icon);
 app.use(Step);
 app.use(Steps);
 app.use(Dialog);
+app.use(Popup);
+app.use(Field);
+app.use(Picker);
 
 app.use(router);
 
