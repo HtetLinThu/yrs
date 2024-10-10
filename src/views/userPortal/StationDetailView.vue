@@ -36,7 +36,8 @@
                   :key="route_schedule.slug"
                   :title="route_schedule.title"
                   :label="route_schedule.time"
-                  :to="`/route/${route_schedule.slug}`"
+                  is-link
+                  :to="`/route/${route_schedule.slug}?origin_station_slug=&destination_station_slug=`"
                 >
                 </van-cell>
               </van-cell-group>
@@ -52,6 +53,8 @@
                   :key="route_schedule.slug"
                   :title="route_schedule.title"
                   :label="route_schedule.time"
+                  is-link
+                  :to="`/route/${route_schedule.slug}?origin_station_slug=&destination_station_slug=`"
                 >
                 </van-cell>
               </van-cell-group>

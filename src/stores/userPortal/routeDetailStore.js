@@ -15,9 +15,15 @@ export const useRouteDetailStore = defineStore("routeDetailStore", {
     getErrors: (state) => state.errors,
   },
   actions: {
-    async get(slug) {
+    async get(
+      slug,
+      origin_station_slug = null,
+      destination_station_slug = null
+    ) {
       try {
-        let response = await userPortalAxiosInstance.get(`route/${slug}`);
+        let response = await userPortalAxiosInstance.get(
+          `route/${slug}?origin_station_slug=${origin_station_slug}&destination_station_slug=${destination_station_slug}`
+        );
 
         this.response = response.data ?? null;
         this.error = null;

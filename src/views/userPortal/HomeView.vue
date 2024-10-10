@@ -69,10 +69,12 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
+import { ref, watch } from "vue";
 import { useStationStore } from "@/stores/userPortal/stationStore";
+import { useRouter } from "vue-router";
 
 const stationStore = useStationStore();
+const router = useRouter();
 
 const stations = ref([]);
 const page = ref(1);
@@ -148,6 +150,19 @@ const destinationPickerChange = ({
     fetchStation();
   }
 };
+
+watch(originStationSlug, () => {
+  if(originStationSlug.value != null && destinationStationSlug.value != null){
+    router.push(`route?origin_station_slug=${originStationSlug.value}&destination_station_slug=${destinationStationSlug.value}`);
+  }
+});
+
+watch(destinationStationSlug, () => {
+  if(originStationSlug.value != null && destinationStationSlug.value != null){
+    router.push(`route?origin_station_slug=${originStationSlug.value}&destination_station_slug=${destinationStationSlug.value}`);
+  }
+});
+
 </script>
 
 <style scope></style>

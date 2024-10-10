@@ -55,13 +55,15 @@
         </van-grid>
 
         <van-grid :border="false" :column-num="2" class="mb-5">
-          <van-grid-item class="total-stations-grid-item">
+          <van-grid-item icon="photo-o" class="total-stations-grid-item">
+            <van-icon name="shop-o" size="16" class="mb-1" />
             <p class="text-xs text-center text-theme mb-1">Total Stations</p>
             <p class="text-xs text-center text-gray-700 mb-1">
               {{ routeDetail.total_stations }} Stations
             </p>
           </van-grid-item>
-          <van-grid-item class="traveling-time-grid-item">
+          <van-grid-item icon="photo-o" class="traveling-time-grid-item">
+            <van-icon name="underway-o" size="16" />
             <p class="text-xs text-center text-theme mb-1">Traveling Time</p>
             <p class="text-xs text-center text-gray-700 mb-1">
               {{ routeDetail.traveling_minutes }} minutes
@@ -192,7 +194,11 @@ var map = null;
 const onClickLeft = () => history.back();
 
 const fetchRouteDetail = async () => {
-  await routeDetailStore.get(route.params.slug);
+  await routeDetailStore.get(
+    route.params.slug,
+    route.query.origin_station_slug,
+    route.query.destination_station_slug
+  );
   routeDetail.value = routeDetailStore.getResponse?.data;
   errorMessage.value = routeDetailStore.getErrorMessage;
   refreshing.value = false;
@@ -271,6 +277,10 @@ onMounted(() => {
 
 .traveling-time-grid-item .van-grid-item__content {
   border-radius: 0px 8px 8px 0px !important;
+}
+
+.van-step--vertical {
+  padding: 10px !important;
 }
 
 .van-step--vertical .van-step__circle-container {
