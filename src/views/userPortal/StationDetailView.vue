@@ -36,6 +36,7 @@
                   :key="route_schedule.slug"
                   :title="route_schedule.title"
                   :label="route_schedule.time"
+                  :to="`/route/${route_schedule.slug}`"
                 >
                 </van-cell>
               </van-cell-group>
@@ -65,7 +66,11 @@
         class="bg-white rounded-lg shadow-md flex justify-center items-center"
       >
         <div>
-          <van-empty image="error" :description="errorMessage" class="text-center" />
+          <van-empty
+            image="error"
+            :description="errorMessage"
+            class="text-center"
+          />
         </div>
       </div>
     </div>
@@ -83,6 +88,7 @@ const stationDetailStore = useStationDetailStore();
 const stationDetail = ref(null);
 const errorMessage = ref(null);
 const refreshing = ref(false);
+var map = null;
 
 const onClickLeft = () => history.back();
 
@@ -100,7 +106,11 @@ const fetchStationDetail = async () => {
 };
 
 const initMap = () => {
-  const map = L.map("map").setView(
+  if (map !== null) {
+    map.remove();
+  }
+
+  map = L.map("map").setView(
     [stationDetail.value.latitude, stationDetail.value.longitude],
     15
   );

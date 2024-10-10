@@ -11,8 +11,12 @@
   --van-nav-bar-z-index: 999 !important;
   --van-cell-label-margin-top: 0px !important;
   --van-nav-bar-icon-color: #fff !important;
+  --van-tabs-bottom-bar-color: #1cbc9b !important;
+  --van-step-text-color: #1cbc9b !important;
+  --van-step-active-color: #1cbc9b !important;
+  --van-step-icon-size: 20px !important;
 }
 
-.van-tabs--line .van-tabs__wrap{
+.van-tabs--line .van-tabs__wrap {
   border-radius: 10px !important;
 }

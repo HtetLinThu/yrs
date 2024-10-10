@@ -17,6 +17,12 @@ import {
   Tab,
   Tabs,
   Empty,
+  Grid,
+  GridItem,
+  Icon,
+  Step,
+  Steps,
+  Dialog
 } from "vant";
 
 import App from "./App.vue";
@@ -39,6 +45,12 @@ app.use(TextEllipsis);
 app.use(Tab);
 app.use(Tabs);
 app.use(Empty);
+app.use(Grid);
+app.use(GridItem);
+app.use(Icon);
+app.use(Step);
+app.use(Steps);
+app.use(Dialog);
 
 app.use(router);
 
