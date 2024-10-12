@@ -24,7 +24,7 @@
       </div>
 
       <div class="p-3 relative" style="top: -74px">
-        <div id="map" class="h-40 mb-3"></div>
+        <div id="map" class="h-40 mb-3 rounded-lg shadow-md"></div>
 
         <van-tabs>
           <van-tab>

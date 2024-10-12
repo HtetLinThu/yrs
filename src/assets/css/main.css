@@ -15,6 +15,7 @@
   --van-step-text-color: #1cbc9b !important;
   --van-step-active-color: #1cbc9b !important;
   --van-step-icon-size: 20px !important;
+  --van-cell-horizontal-padding: 10px !important;
 }
 
 .van-tabs--line .van-tabs__wrap {
