@@ -69,15 +69,15 @@ const router = createRouter({
     },
 
     {
-      path: "/wallet-transaction",
-      name: "wallet-transaction",
-      component: () => import("../views/WalletTransactionView.vue"),
+      path: "/ticket",
+      name: "ticket",
+      component: () => import("../views/TicketView.vue"),
       meta: { showTabBar: false, requiresAuth: true },
     },
     {
-      path: "/wallet-transaction/:trx_id",
-      name: "wallet-transaction.show",
-      component: () => import("../views/WalletTransactionDetailView.vue"),
+      path: "/ticket/:ticket_number",
+      name: "ticket.show",
+      component: () => import("../views/TicketDetailView.vue"),
       meta: { showTabBar: false, requiresAuth: true },
     },
 
@@ -91,6 +91,19 @@ const router = createRouter({
       path: "/top-up-history/:trx_id",
       name: "top-up-history.show",
       component: () => import("../views/TopUpHistoryDetailView.vue"),
+      meta: { showTabBar: false, requiresAuth: true },
+    },
+
+    {
+      path: "/wallet-transaction",
+      name: "wallet-transaction",
+      component: () => import("../views/WalletTransactionView.vue"),
+      meta: { showTabBar: false, requiresAuth: true },
+    },
+    {
+      path: "/wallet-transaction/:trx_id",
+      name: "wallet-transaction.show",
+      component: () => import("../views/WalletTransactionDetailView.vue"),
       meta: { showTabBar: false, requiresAuth: true },
     },
   ],

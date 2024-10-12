@@ -63,6 +63,15 @@
           </template>
         </van-cell>
 
+        <van-cell is-link to="/ticket">
+          <template #title>
+            <div class="flex items-center">
+              <van-icon name="coupon-o" class="text-lg mr-1" />
+              <span>Ticket</span>
+            </div>
+          </template>
+        </van-cell>
+
         <van-cell is-link to="/top-up-history">
           <template #title>
             <div class="flex items-center">
