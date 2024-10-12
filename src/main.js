@@ -29,6 +29,7 @@ import {
   Form,
   PasswordInput,
   NumberKeyboard,
+  Divider
 } from "vant";
 
 import App from "./App.vue";
@@ -70,6 +71,7 @@ app.use(Picker);
 app.use(Form);
 app.use(PasswordInput);
 app.use(NumberKeyboard);
+app.use(Divider);
 
 app.use(router);
 
