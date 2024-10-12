@@ -1,5 +1,5 @@
-import { useStationStore } from "@/stores/userPortal/stationStore";
-import { useRouteStore } from "@/stores/userPortal/routeStore";
+import { useStationStore } from "@/stores/stationStore";
+import { useRouteStore } from "@/stores/routeStore";
 
 const stores = {
   stationStore: useStationStore(),

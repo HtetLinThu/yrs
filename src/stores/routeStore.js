@@ -1,7 +1,7 @@
 import { defineStore } from "pinia";
-import userPortalAxiosInstance from "@/userPortalAxiosInstance";
+import axiosInstance from "@/axiosInstance";
 
-export const useStationDetailStore = defineStore("stationDetailStore", {
+export const useRouteStore = defineStore("routeStore", {
   state: () => ({
     response: null,
     error: null,
@@ -15,9 +15,11 @@ export const useStationDetailStore = defineStore("stationDetailStore", {
     getErrors: (state) => state.errors,
   },
   actions: {
-    async get(slug) {
+    async get(queryParameters) {
       try {
-        let response = await userPortalAxiosInstance.get(`station/${slug}`);
+        let response = await axiosInstance.get(`route`, {
+          params: queryParameters,
+        });
 
         this.response = response.data ?? null;
         this.error = null;

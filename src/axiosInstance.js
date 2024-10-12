@@ -1,7 +1,7 @@
 import axios from "axios";
 import { showNotify } from "vant";
 
-const userPortalAxiosInstance = axios.create({
+const axiosInstance = axios.create({
   baseURL: import.meta.env.VITE_API_END_POINT,
   headers: {
     Accept: "application/json",
@@ -9,7 +9,7 @@ const userPortalAxiosInstance = axios.create({
   },
 });
 
-userPortalAxiosInstance.interceptors.request.use(
+axiosInstance.interceptors.request.use(
   function (config) {
     return config;
   },
@@ -18,7 +18,7 @@ userPortalAxiosInstance.interceptors.request.use(
   }
 );
 
-userPortalAxiosInstance.interceptors.response.use(
+axiosInstance.interceptors.response.use(
   function (response) {
     return response;
   },
@@ -53,4 +53,4 @@ userPortalAxiosInstance.interceptors.response.use(
   }
 );
 
-export default userPortalAxiosInstance;
+export default axiosInstance;

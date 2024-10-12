@@ -176,7 +176,7 @@
 <script setup>
 import { nextTick, onMounted, ref } from "vue";
 import { useRouter, useRoute } from "vue-router";
-import { useRouteDetailStore } from "@/stores/userPortal/routeDetailStore";
+import { useRouteDetailStore } from "@/stores/routeDetailStore";
 
 const router = useRouter();
 const route = useRoute();
