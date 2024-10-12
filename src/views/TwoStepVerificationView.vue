@@ -40,6 +40,18 @@
             @blur="showKeyboard = false"
           />
         </div>
+
+        <div class="text-center pb-3">
+          <van-button
+            type="default"
+            plain
+            size="small"
+            :loading="resendOTPBtnLoading"
+            loading-text="Loading..."
+            @click="onResendOTP"
+            >Resend OTP</van-button
+          >
+        </div>
       </div>
 
       <div class="my-4">
@@ -51,7 +63,7 @@
           color="#1CBC9B"
           :loading="submitBtnLoading"
         >
-          Submit
+          Confirm
         </van-button>
       </div>
     </van-form>
@@ -62,10 +74,13 @@
 import { ref } from "vue";
 import { useRouter } from "vue-router";
 import { useTwoStepVerificationStore } from "@/stores/twoStepVerificationStore";
+import { useResendOTPStore } from "@/stores/resendOTPStore";
 import { showSuccessToast } from "vant";
+import { showNotify } from "vant";
 
 const router = useRouter();
 const twoStepVerificationStore = useTwoStepVerificationStore();
+const resendOTPStore = useResendOTPStore();
 const otp_token = ref(ls.get("__otp-token"));
 const code = ref("");
 
@@ -74,6 +89,7 @@ const errors = ref({
   code: "",
 });
 const submitBtnLoading = ref(false);
+const resendOTPBtnLoading = ref(false);
 const showKeyboard = ref(true);
 
 const onClickLeft = () => history.back();
@@ -101,13 +117,33 @@ const onSubmit = async (values) => {
       };
     }
   } else {
-    ls.set("__access-token", twoStepVerificationStore.getResponse?.data.access_token);
-    ls.remove('__otp-token');
+    ls.set(
+      "__access-token",
+      twoStepVerificationStore.getResponse?.data.access_token
+    );
+    ls.remove("__otp-token");
     showSuccessToast(twoStepVerificationStore.getResponse?.message);
     router.push("profile");
   }
 
   submitBtnLoading.value = false;
+};
+
+const onResendOTP = async () => {
+  resendOTPBtnLoading.value = true;
+
+  await resendOTPStore.store(otp_token.value);
+
+  if (resendOTPStore.getErrorMessage == null) {
+    ls.set("__otp-token", resendOTPStore.getResponse?.data.otp_token);
+    showNotify({
+      type: "success",
+      message: resendOTPStore.getResponse?.message,
+      position: "bottom",
+    });
+  }
+
+  resendOTPBtnLoading.value = false;
 };
 </script>
 
