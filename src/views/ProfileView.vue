@@ -63,6 +63,15 @@
           </template>
         </van-cell>
 
+        <van-cell is-link to="/top-up-history">
+          <template #title>
+            <div class="flex items-center">
+              <van-icon name="list-switch" class="text-lg mr-1" />
+              <span>Top Up History</span>
+            </div>
+          </template>
+        </van-cell>
+
         <van-cell is-link to="/wallet-transaction">
           <template #title>
             <div class="flex items-center">

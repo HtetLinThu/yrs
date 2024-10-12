@@ -1,6 +1,6 @@
 <template>
   <van-nav-bar
-    title="Wallet Transaction Detail"
+    title="Top Up History Detail"
     :fixed="true"
     left-text=""
     left-arrow
@@ -15,21 +15,22 @@
     success-text="Successfully loaded"
     @refresh="onRefresh"
   >
-    <div v-if="walletTransactionDetail != null">
+    <div v-if="topUpHistoryDetail != null">
       <div class="bg-theme pt-14 pb-20">
         <img
-          :src="walletTransactionDetail.type.icon"
+          :src="topUpHistoryDetail.image"
           alt=""
           class="w-20 h-20 p-1 bg-gray-100 rounded-lg mx-auto mb-3"
+          v-viewer
         />
 
         <div class="text-center">
           <van-tag
             color="#fcfcfc"
-            :text-color="`#${walletTransactionDetail.type.color}`"
+            :text-color="`#${topUpHistoryDetail.status.color}`"
             size="medium"
             round
-            >{{ walletTransactionDetail.type.text }}</van-tag
+            >{{ topUpHistoryDetail.status.text }}</van-tag
           >
         </div>
       </div>
@@ -38,38 +39,40 @@
         <van-cell-group inset class="mx-0 mb-3">
           <van-cell
             title="Trx ID"
-            :value="walletTransactionDetail.trx_id"
+            :value="topUpHistoryDetail.trx_id"
           ></van-cell>
 
           <van-cell
-            title="From"
-            :value="walletTransactionDetail.from"
+            title="Amount"
+            :value="topUpHistoryDetail.amount"
           ></van-cell>
 
-          <van-cell title="To" :value="walletTransactionDetail.to"></van-cell>
-
-          <van-cell
-            title="Type"
-            :value="walletTransactionDetail.type.text"
-          ></van-cell>
-
-          <van-cell title="Amount">
+          <van-cell title="Status">
             <template #value>
-              <span :style="`color: #${walletTransactionDetail.method.color}`"
-                >{{ walletTransactionDetail.method.sign
-                }}{{ walletTransactionDetail.amount }}</span
-              >
+              <span :style="`color: #${topUpHistoryDetail.status.color}`">{{
+                topUpHistoryDetail.status.text
+              }}</span>
             </template>
           </van-cell>
 
           <van-cell
             title="Created at"
-            :value="walletTransactionDetail.created_at"
+            :value="topUpHistoryDetail.created_at"
+          ></van-cell>
+
+          <van-cell
+            title="Approved at"
+            :value="topUpHistoryDetail.approved_at"
+          ></van-cell>
+
+          <van-cell
+            title="Rejected at"
+            :value="topUpHistoryDetail.rejected_at"
           ></van-cell>
 
           <van-cell
             title="Description"
-            :value="walletTransactionDetail.description"
+            :value="topUpHistoryDetail.description"
           ></van-cell>
         </van-cell-group>
       </div>
@@ -92,33 +95,32 @@
 </template>
 
 <script setup>
-import { nextTick, onMounted, ref } from "vue";
+import { onMounted, ref } from "vue";
 import { useRouter, useRoute } from "vue-router";
-import { useWalletTransactionDetailStore } from "@/stores/walletTransactionDetailStore";
+import { useTopUpHistoryDetailStore } from "@/stores/topUpHistoryDetailStore";
 
 const router = useRouter();
 const route = useRoute();
-const walletTransactionDetailStore = useWalletTransactionDetailStore();
-const walletTransactionDetail = ref(null);
+const topUpHistoryDetailStore = useTopUpHistoryDetailStore();
+const topUpHistoryDetail = ref(null);
 const errorMessage = ref(null);
 const refreshing = ref(false);
 
 const onClickLeft = () => history.back();
 
-const fetchWalletTransactionDetail = async () => {
-  await walletTransactionDetailStore.get(route.params.trx_id);
-  walletTransactionDetail.value =
-    walletTransactionDetailStore.getResponse?.data;
-  errorMessage.value = walletTransactionDetailStore.getErrorMessage;
+const fetchTopUpHistoryDetail = async () => {
+  await topUpHistoryDetailStore.get(route.params.trx_id);
+  topUpHistoryDetail.value = topUpHistoryDetailStore.getResponse?.data;
+  errorMessage.value = topUpHistoryDetailStore.getErrorMessage;
   refreshing.value = false;
 };
 
 const onRefresh = () => {
-  fetchWalletTransactionDetail();
+  fetchTopUpHistoryDetail();
 };
 
 onMounted(() => {
-  fetchWalletTransactionDetail();
+  fetchTopUpHistoryDetail();
 });
 </script>
 

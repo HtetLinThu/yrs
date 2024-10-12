@@ -36,6 +36,10 @@
           :query-parameters="props.queryParameters"
         />
         <StationItem v-if="storeName == 'stationStore'" :list="list" />
+        <TopUpHistoryItem
+          v-if="storeName == 'topUpHistoryStore'"
+          :list="list"
+        />
         <WalletTransactionItem
           v-if="storeName == 'walletTransactionStore'"
           :list="list"
@@ -50,6 +54,7 @@ import { ref } from "vue";
 import { useStoreHelper } from "@/helpers/useStoreHelper";
 import RouteItem from "./RouteItem.vue";
 import StationItem from "./StationItem.vue";
+import TopUpHistoryItem from "./TopUpHistoryItem.vue";
 import WalletTransactionItem from "./WalletTransactionItem.vue";
 
 const props = defineProps({

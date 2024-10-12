@@ -80,6 +80,19 @@ const router = createRouter({
       component: () => import("../views/WalletTransactionDetailView.vue"),
       meta: { showTabBar: false, requiresAuth: true },
     },
+
+    {
+      path: "/top-up-history",
+      name: "top-up-history",
+      component: () => import("../views/TopUpHistoryView.vue"),
+      meta: { showTabBar: false, requiresAuth: true },
+    },
+    {
+      path: "/top-up-history/:trx_id",
+      name: "top-up-history.show",
+      component: () => import("../views/TopUpHistoryDetailView.vue"),
+      meta: { showTabBar: false, requiresAuth: true },
+    },
   ],
 });
 
