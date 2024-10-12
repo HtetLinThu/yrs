@@ -25,11 +25,21 @@ import {
   Dialog,
   Popup,
   Field,
-  Picker
+  Picker,
+  Form,
+  PasswordInput,
+  NumberKeyboard,
 } from "vant";
 
 import App from "./App.vue";
 import router from "./router";
+import SecureLS from "secure-ls";
+
+window.ls = new SecureLS({
+  encodingType: import.meta.env.VITE_LS_ENCODING_TYPE,
+  encryptionSecret: import.meta.env.VITE_LS_ENCRYPTION_SECRET,
+  metaKey: import.meta.env.VITE_LS_META_KEY,
+});
 
 const app = createApp(App);
 
@@ -57,6 +67,9 @@ app.use(Dialog);
 app.use(Popup);
 app.use(Field);
 app.use(Picker);
+app.use(Form);
+app.use(PasswordInput);
+app.use(NumberKeyboard);
 
 app.use(router);
 
