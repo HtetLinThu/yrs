@@ -1,9 +1,11 @@
-import { useStationStore } from "@/stores/stationStore";
 import { useRouteStore } from "@/stores/routeStore";
+import { useStationStore } from "@/stores/stationStore";
+import { useWalletTransactionStore } from "@/stores/walletTransactionStore";
 
 const stores = {
-  stationStore: useStationStore(),
   routeStore: useRouteStore(),
+  stationStore: useStationStore(),
+  walletTransactionStore: useWalletTransactionStore(),
 };
 
 const useStoreHelper = (storeName) => {

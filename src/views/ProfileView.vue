@@ -62,6 +62,15 @@
             </div>
           </template>
         </van-cell>
+
+        <van-cell is-link to="/wallet-transaction">
+          <template #title>
+            <div class="flex items-center">
+              <van-icon name="paid" class="text-lg mr-1" />
+              <span>Wallet Transaction</span>
+            </div>
+          </template>
+        </van-cell>
       </van-cell-group>
 
       <div v-if="profile != null">
