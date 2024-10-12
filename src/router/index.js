@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
+import { useGeneralStore } from "@/stores/generalStore";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -59,7 +60,26 @@ const router = createRouter({
       component: () => import("../views/ProfileView.vue"),
       meta: { showTabBar: true },
     },
+
+    {
+      path: "/change-password",
+      name: "change-password",
+      component: () => import("../views/ProfileView.vue"),
+      meta: { showTabBar: true, requiresAuth: true },
+    },
   ],
+});
+
+router.beforeEach(async (to, from, next) => {
+  const generalStore = useGeneralStore();
+
+  generalStore.setIsAuthenticated(ls.get("__access-token") ? true : false);
+
+  if (to.meta.requiresAuth && !generalStore.getIsAuthenticated) {
+    next({ path: "/login" });
+  } else {
+    next();
+  }
 });
 
 export default router;
