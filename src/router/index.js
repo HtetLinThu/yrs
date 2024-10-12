@@ -67,10 +67,17 @@ const router = createRouter({
       component: () => import("../views/ChangePasswordView.vue"),
       meta: { showTabBar: false, requiresAuth: true },
     },
+
     {
       path: "/wallet-transaction",
       name: "wallet-transaction",
       component: () => import("../views/WalletTransactionView.vue"),
+      meta: { showTabBar: false, requiresAuth: true },
+    },
+    {
+      path: "/wallet-transaction/:trx_id",
+      name: "wallet-transaction.show",
+      component: () => import("../views/WalletTransactionDetailView.vue"),
       meta: { showTabBar: false, requiresAuth: true },
     },
   ],
