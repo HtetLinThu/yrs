@@ -31,7 +31,8 @@ import {
   PasswordInput,
   NumberKeyboard,
   Divider,
-  Tag
+  Tag,
+  Uploader
 } from "vant";
 
 import App from "./App.vue";
@@ -77,6 +78,7 @@ app.use(PasswordInput);
 app.use(NumberKeyboard);
 app.use(Divider);
 app.use(Tag);
+app.use(Uploader);
 app.use(VueViewer)
 app.use(router);
 app.component(VueQrcode.name, VueQrcode);
