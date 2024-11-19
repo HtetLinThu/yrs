@@ -161,7 +161,7 @@ const fetchMarker = async () => {
     markers.value = markerStore.getResponse?.data ?? [];
 
     var stationMarker = L.icon({
-      iconUrl: "/src/assets/image/station-marker.png",
+      iconUrl: "@/assets/image/station-marker.png",
       iconSize: [32, 32],
       iconAnchor: [16, 32],
       popupAnchor: [0, -32],
