@@ -84,7 +84,6 @@
 import { nextTick, onMounted, ref } from "vue";
 import { useRouter, useRoute } from "vue-router";
 import { useStationDetailStore } from "@/stores/stationDetailStore";
-import stationMarker from '@/assets/image/station-marker.png';
 
 const router = useRouter();
 const route = useRoute();

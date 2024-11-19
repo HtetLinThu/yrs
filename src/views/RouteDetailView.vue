@@ -177,7 +177,6 @@
 import { nextTick, onMounted, ref } from "vue";
 import { useRouter, useRoute } from "vue-router";
 import { useRouteDetailStore } from "@/stores/routeDetailStore";
-import stationMarker from '@/assets/image/station-marker.png';
 
 const router = useRouter();
 const route = useRoute();
@@ -226,7 +225,7 @@ const initMap = () => {
   // L.tileLayer('https://api.maptiler.com/maps/streets-v2/{z}/{x}/{y}.png?key=lGRhuk24oNhhSOVUzxcs').addTo(map);
 
   var stationMarker = L.icon({
-    iconUrl: stationMarker,
+    iconUrl: new URL('@/assets/image/station-marker.png', import.meta.url).href,
     iconSize: [32, 32],
     iconAnchor: [16, 32],
     popupAnchor: [0, -32],

@@ -108,7 +108,6 @@ import { onMounted, ref, watch } from "vue";
 import { useRouter } from "vue-router";
 import { useStationStore } from "@/stores/stationStore";
 import { useMarkerStore } from "@/stores/markerStore";
-import stationMarker from '@/assets/image/station-marker.png';
 
 const router = useRouter();
 const stationStore = useStationStore();
@@ -162,7 +161,7 @@ const fetchMarker = async () => {
     markers.value = markerStore.getResponse?.data ?? [];
 
     var stationMarker = L.icon({
-      iconUrl: stationMarker,
+      iconUrl: new URL('@/assets/image/station-marker.png', import.meta.url).href,
       iconSize: [32, 32],
       iconAnchor: [16, 32],
       popupAnchor: [0, -32],
