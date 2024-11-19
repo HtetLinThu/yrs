@@ -90,10 +90,6 @@ const onSubmit = async (values) => {
 
   console.log(topUpStore.getResponse);
 
-  setTimeout(() => {
-    console.log(topUpStore.getResponse);
-  }, 5000);
-
   if (topUpStore.getErrorMessage) {
     if (topUpStore.getErrors) {
       errors.value = {
