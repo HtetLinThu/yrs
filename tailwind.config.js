@@ -4,8 +4,10 @@ export default {
   content: ["./src/**/*.{css,js,vue}"],
   theme: {
     extend: {
-      backgroundImage: {
-        // theme: "linear-gradient(90deg, #3CACB6 0%, #8CCEAD 90%)",
+      // backgroundImage: {
+      //   theme: "linear-gradient(90deg, #3CACB6 0%, #8CCEAD 90%)",
+      // },
+      backgroundColor: {
         theme: "#1CBC9B",
       },
       borderColor: {
