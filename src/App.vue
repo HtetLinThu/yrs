@@ -6,7 +6,7 @@
       <RouterView />
     </div>
 
-    <van-tabbar v-if="showTabBar" v-model="active" active-color="#1CBC9B" :safe-area-inset-bottom="safeAreaInsetBottom">
+    <van-tabbar v-if="showTabBar" v-model="active" active-color="#1CBC9B" :safe-area-inset-bottom="true">
       <van-tabbar-item icon="home-o" replace to="/">Home</van-tabbar-item>
       <van-tabbar-item icon="exchange" replace to="/route"
         >Route</van-tabbar-item
@@ -29,7 +29,6 @@ import SplashScreen from "./components/SplashScreen.vue";
 const route = useRoute();
 const showSplashScreen = ref(true);
 const active = ref(0);
-const safeAreaInsetBottom = ref(true);
 const showTabBar = computed(() => route.meta.showTabBar);
 
 watch(
