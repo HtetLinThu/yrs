@@ -33,8 +33,9 @@ export default defineConfig({
       devOptions: {
         enabled: false,
       },
-    })
+    }),
   ],
+  base: '/yrs/',
   resolve: {
     alias: {
       "@": fileURLToPath(new URL("./src", import.meta.url)),

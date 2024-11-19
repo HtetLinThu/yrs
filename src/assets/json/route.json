@@ -1,0 +1,1962 @@
+{
+  "data": [
+    {
+      "slug": "k-3-yaankon-fpyk7n",
+      "title": "က-၃ (ရန်ကုန်)",
+      "description": "အစ-ကမတ-ရက (ဝဲရစ်)",
+      "direction": {
+        "text": "Anticlockwise",
+        "color": "2563eb"
+      },
+      "origin_station_title": "Insein Railway Station",
+      "origin_station_time": "08:20 AM",
+      "destination_station_title": "Yangon Central Railway Station",
+      "destination_station_time": "09:40 AM",
+      "total_stations": 17,
+      "traveling_minutes": 80,
+      "station_schedules": [
+        {
+          "slug": "insein-railway-station-n8QrlP",
+          "title": "Insein Railway Station",
+          "time": "08:20 AM",
+          "latitude": "16.88499",
+          "longitude": "96.107076"
+        },
+        {
+          "slug": "gyo-gone-railway-station-Y6dbZG",
+          "title": "Gyo Gone Railway Station",
+          "time": "08:25 AM",
+          "latitude": "16.87443",
+          "longitude": "96.111"
+        },
+        {
+          "slug": "thamine-myo-thit-railway-station-gkUdWX",
+          "title": "Thamine Myo Thit Railway Station",
+          "time": "08:30 AM",
+          "latitude": "16.867079",
+          "longitude": "96.113047"
+        },
+        {
+          "slug": "thamine-railway-station-KkZfEl",
+          "title": "Thamine Railway Station",
+          "time": "08:35 AM",
+          "latitude": "16.861273",
+          "longitude": "96.114597"
+        },
+        {
+          "slug": "oakyinn-railway-station-ro8vvn",
+          "title": "Oakyinn Railway Station",
+          "time": "08:40 AM",
+          "latitude": "16.855287",
+          "longitude": "96.116163"
+        },
+        {
+          "slug": "thiri-myaing-railway-station-9OCF7z",
+          "title": "Thiri Myaing Railway Station",
+          "time": "08:45 AM",
+          "latitude": "16.849285",
+          "longitude": "96.117767"
+        },
+        {
+          "slug": "kamayut-railway-station-3QJS4l",
+          "title": "Kamayut Railway Station",
+          "time": "08:50 AM",
+          "latitude": "16.840285",
+          "longitude": "96.120155"
+        },
+        {
+          "slug": "hledan-railway-station-2dZt8n",
+          "title": "Hledan Railway Station",
+          "time": "08:55 AM",
+          "latitude": "16.824712",
+          "longitude": "96.124773"
+        },
+        {
+          "slug": "hanthawaddy-railway-station-Bu4wAM",
+          "title": "Hanthawaddy Railway Station",
+          "time": "09:00 AM",
+          "latitude": "16.816701",
+          "longitude": "96.126227"
+        },
+        {
+          "slug": "kyimyindaing-railway-station-7q8uHU",
+          "title": "Kyimyindaing Railway Station",
+          "time": "09:05 AM",
+          "latitude": "16.806195",
+          "longitude": "96.126511"
+        },
+        {
+          "slug": "pann-hlaing-railway-station-bunIom",
+          "title": "Pann Hlaing Railway Station",
+          "time": "09:10 AM",
+          "latitude": "16.79746",
+          "longitude": "96.12775"
+        },
+        {
+          "slug": "ahlone-railway-station-Z1xZmE",
+          "title": "Ahlone Railway Station",
+          "time": "09:15 AM",
+          "latitude": "16.79126",
+          "longitude": "96.1307"
+        },
+        {
+          "slug": "shan-lan-railway-station-PRTWik",
+          "title": "Shan Lan Railway Station",
+          "time": "09:20 AM",
+          "latitude": "16.78642",
+          "longitude": "96.13471"
+        },
+        {
+          "slug": "pyay-lan-railway-station-BOppHJ",
+          "title": "Pyay Lan Railway Station",
+          "time": "09:25 AM",
+          "latitude": "16.78412",
+          "longitude": "96.14351"
+        },
+        {
+          "slug": "lanmadaw-railway-station-XWcsyb",
+          "title": "Lanmadaw Railway Station",
+          "time": "09:30 AM",
+          "latitude": "16.78148",
+          "longitude": "96.14881"
+        },
+        {
+          "slug": "phaya-lan-railway-station-R1931G",
+          "title": "Phaya Lan Railway Station",
+          "time": "09:35 AM",
+          "latitude": "16.78133",
+          "longitude": "96.1544"
+        },
+        {
+          "slug": "yangon-central-railway-station-kFdZa0",
+          "title": "Yangon Central Railway Station",
+          "time": "09:40 AM",
+          "latitude": "16.781076",
+          "longitude": "96.161943"
+        }
+      ]
+    },
+    {
+      "slug": "k-4-ainsein-F4S7RY",
+      "title": "က-၄ (အင်းစိန်)",
+      "description": "ရက-မဂလဒ-အစ (ဝဲရစ်)",
+      "direction": {
+        "text": "Anticlockwise",
+        "color": "2563eb"
+      },
+      "origin_station_title": "Yangon Central Railway Station",
+      "origin_station_time": "09:15 AM",
+      "destination_station_title": "Insein Railway Station",
+      "destination_station_time": "11:10 AM",
+      "total_stations": 23,
+      "traveling_minutes": 115,
+      "station_schedules": [
+        {
+          "slug": "yangon-central-railway-station-kFdZa0",
+          "title": "Yangon Central Railway Station",
+          "time": "09:15 AM",
+          "latitude": "16.781076",
+          "longitude": "96.161943"
+        },
+        {
+          "slug": "puzon-taung-railway-station-yTa2cJ",
+          "title": "Puzon Taung Railway Station",
+          "time": "09:25 AM",
+          "latitude": "16.786135",
+          "longitude": "96.174893"
+        },
+        {
+          "slug": "malwe-kone-railway-station-YKVQQS",
+          "title": "Malwe Kone Railway Station",
+          "time": "09:30 AM",
+          "latitude": "16.802728",
+          "longitude": "96.181566"
+        },
+        {
+          "slug": "metta-nyaung-railway-station-w0Kd3g",
+          "title": "Metta Nyaung Railway Station",
+          "time": "09:35 AM",
+          "latitude": "16.812799",
+          "longitude": "96.182038"
+        },
+        {
+          "slug": "tamwe-railway-station-9BtYE2",
+          "title": "Tamwe Railway Station",
+          "time": "09:40 AM",
+          "latitude": "16.82111",
+          "longitude": "96.1791"
+        },
+        {
+          "slug": "bauk-thaw-railway-station-m755FK",
+          "title": "Bauk Thaw Railway Station",
+          "time": "09:45 AM",
+          "latitude": "16.8296",
+          "longitude": "96.1761"
+        },
+        {
+          "slug": "kanbe-railway-station-3fAo9V",
+          "title": "Kanbe Railway Station",
+          "time": "09:50 AM",
+          "latitude": "16.84349",
+          "longitude": "96.16903"
+        },
+        {
+          "slug": "parami-railway-station-a9QIn6",
+          "title": "Parami Railway Station",
+          "time": "09:55 AM",
+          "latitude": "16.85123",
+          "longitude": "96.16495"
+        },
+        {
+          "slug": "swimming-railway-station-QhC0r7",
+          "title": "Swimming Railway Station",
+          "time": "10:00 AM",
+          "latitude": "16.86406",
+          "longitude": "96.15872"
+        },
+        {
+          "slug": "bridge-four-railway-station-6tBqb5",
+          "title": "Bridge Four Railway Station",
+          "time": "10:05 AM",
+          "latitude": "16.87839",
+          "longitude": "96.1554"
+        },
+        {
+          "slug": "kyaung-hla-railway-station-meB5DI",
+          "title": "Kyaung Hla Railway Station",
+          "time": "10:10 AM",
+          "latitude": "16.88984",
+          "longitude": "96.15304"
+        },
+        {
+          "slug": "puzon-taung-railway-station-cToG0J",
+          "title": "Puzon Taung Railway Station",
+          "time": "10:15 AM",
+          "latitude": "16.90055",
+          "longitude": "96.15021"
+        },
+        {
+          "slug": "ukkala-railway-station-XUyJzZ",
+          "title": "Ukkala Railway Station",
+          "time": "10:20 AM",
+          "latitude": "16.90707",
+          "longitude": "96.14789"
+        },
+        {
+          "slug": "we-bagi-railway-station-POuvb8",
+          "title": "We Bagi Railway Station",
+          "time": "10:25 AM",
+          "latitude": "16.92104",
+          "longitude": "96.1469"
+        },
+        {
+          "slug": "mingaladon-railway-station-EE4HwY",
+          "title": "Mingaladon Railway Station",
+          "time": "10:30 AM",
+          "latitude": "16.930849",
+          "longitude": "96.145003"
+        },
+        {
+          "slug": "mingaladon-market-railway-station-lCJchN",
+          "title": "Mingaladon Market Railway Station",
+          "time": "10:35 AM",
+          "latitude": "16.937135",
+          "longitude": "96.138485"
+        },
+        {
+          "slug": "kyait-ka-lei-railway-station-IPMR1C",
+          "title": "Kyait Ka Lei Railway Station",
+          "time": "10:40 AM",
+          "latitude": "16.94071",
+          "longitude": "96.12768"
+        },
+        {
+          "slug": "golf-course-railway-station-0eVKKo",
+          "title": "Golf Course Railway Station",
+          "time": "10:45 AM",
+          "latitude": "16.93551",
+          "longitude": "96.10444"
+        },
+        {
+          "slug": "da-nyin-gone-railway-station-mxkghY",
+          "title": "Da Nyin Gone Railway Station",
+          "time": "10:50 AM",
+          "latitude": "16.932804",
+          "longitude": "96.093874"
+        },
+        {
+          "slug": "aung-san-railway-station-3syrHS",
+          "title": "Aung San Railway Station",
+          "time": "10:55 AM",
+          "latitude": "16.91503",
+          "longitude": "96.09288"
+        },
+        {
+          "slug": "phawt-kan-railway-station-4KJGj9",
+          "title": "Phawt Kan Railway Station",
+          "time": "11:00 AM",
+          "latitude": "16.90765",
+          "longitude": "96.09283"
+        },
+        {
+          "slug": "ywa-ma-railway-station-mPA80b",
+          "title": "Ywa Ma Railway Station",
+          "time": "11:05 AM",
+          "latitude": "16.89789",
+          "longitude": "96.09896"
+        },
+        {
+          "slug": "insein-railway-station-n8QrlP",
+          "title": "Insein Railway Station",
+          "time": "11:10 AM",
+          "latitude": "16.88499",
+          "longitude": "96.107076"
+        }
+      ]
+    },
+    {
+      "slug": "k-5-yaankon-R3tNI4",
+      "title": "က-၅ (ရန်ကုန်)",
+      "description": "အစ-မဂလဒ-ရက (ယာရစ်)",
+      "direction": {
+        "text": "Clockwise",
+        "color": "16a34a"
+      },
+      "origin_station_title": "Insein Railway Station",
+      "origin_station_time": "01:55 PM",
+      "destination_station_title": "Yangon Central Railway Station",
+      "destination_station_time": "03:50 PM",
+      "total_stations": 23,
+      "traveling_minutes": 115,
+      "station_schedules": [
+        {
+          "slug": "insein-railway-station-n8QrlP",
+          "title": "Insein Railway Station",
+          "time": "01:55 PM",
+          "latitude": "16.88499",
+          "longitude": "96.107076"
+        },
+        {
+          "slug": "ywa-ma-railway-station-mPA80b",
+          "title": "Ywa Ma Railway Station",
+          "time": "02:00 PM",
+          "latitude": "16.89789",
+          "longitude": "96.09896"
+        },
+        {
+          "slug": "phawt-kan-railway-station-4KJGj9",
+          "title": "Phawt Kan Railway Station",
+          "time": "02:05 PM",
+          "latitude": "16.90765",
+          "longitude": "96.09283"
+        },
+        {
+          "slug": "aung-san-railway-station-3syrHS",
+          "title": "Aung San Railway Station",
+          "time": "02:10 PM",
+          "latitude": "16.91503",
+          "longitude": "96.09288"
+        },
+        {
+          "slug": "da-nyin-gone-railway-station-mxkghY",
+          "title": "Da Nyin Gone Railway Station",
+          "time": "02:15 PM",
+          "latitude": "16.932804",
+          "longitude": "96.093874"
+        },
+        {
+          "slug": "golf-course-railway-station-0eVKKo",
+          "title": "Golf Course Railway Station",
+          "time": "02:20 PM",
+          "latitude": "16.93551",
+          "longitude": "96.10444"
+        },
+        {
+          "slug": "kyait-ka-lei-railway-station-IPMR1C",
+          "title": "Kyait Ka Lei Railway Station",
+          "time": "02:25 PM",
+          "latitude": "16.94071",
+          "longitude": "96.12768"
+        },
+        {
+          "slug": "mingaladon-market-railway-station-lCJchN",
+          "title": "Mingaladon Market Railway Station",
+          "time": "02:30 PM",
+          "latitude": "16.937135",
+          "longitude": "96.138485"
+        },
+        {
+          "slug": "mingaladon-railway-station-EE4HwY",
+          "title": "Mingaladon Railway Station",
+          "time": "02:35 PM",
+          "latitude": "16.930849",
+          "longitude": "96.145003"
+        },
+        {
+          "slug": "we-bagi-railway-station-POuvb8",
+          "title": "We Bagi Railway Station",
+          "time": "02:40 PM",
+          "latitude": "16.92104",
+          "longitude": "96.1469"
+        },
+        {
+          "slug": "ukkala-railway-station-XUyJzZ",
+          "title": "Ukkala Railway Station",
+          "time": "02:45 PM",
+          "latitude": "16.90707",
+          "longitude": "96.14789"
+        },
+        {
+          "slug": "puzon-taung-railway-station-cToG0J",
+          "title": "Puzon Taung Railway Station",
+          "time": "02:50 PM",
+          "latitude": "16.90055",
+          "longitude": "96.15021"
+        },
+        {
+          "slug": "kyaung-hla-railway-station-meB5DI",
+          "title": "Kyaung Hla Railway Station",
+          "time": "02:55 PM",
+          "latitude": "16.88984",
+          "longitude": "96.15304"
+        },
+        {
+          "slug": "bridge-four-railway-station-6tBqb5",
+          "title": "Bridge Four Railway Station",
+          "time": "03:00 PM",
+          "latitude": "16.87839",
+          "longitude": "96.1554"
+        },
+        {
+          "slug": "swimming-railway-station-QhC0r7",
+          "title": "Swimming Railway Station",
+          "time": "03:05 PM",
+          "latitude": "16.86406",
+          "longitude": "96.15872"
+        },
+        {
+          "slug": "parami-railway-station-a9QIn6",
+          "title": "Parami Railway Station",
+          "time": "03:10 PM",
+          "latitude": "16.85123",
+          "longitude": "96.16495"
+        },
+        {
+          "slug": "kanbe-railway-station-3fAo9V",
+          "title": "Kanbe Railway Station",
+          "time": "03:15 PM",
+          "latitude": "16.84349",
+          "longitude": "96.16903"
+        },
+        {
+          "slug": "bauk-thaw-railway-station-m755FK",
+          "title": "Bauk Thaw Railway Station",
+          "time": "03:20 PM",
+          "latitude": "16.8296",
+          "longitude": "96.1761"
+        },
+        {
+          "slug": "tamwe-railway-station-9BtYE2",
+          "title": "Tamwe Railway Station",
+          "time": "03:25 PM",
+          "latitude": "16.82111",
+          "longitude": "96.1791"
+        },
+        {
+          "slug": "metta-nyaung-railway-station-w0Kd3g",
+          "title": "Metta Nyaung Railway Station",
+          "time": "03:30 PM",
+          "latitude": "16.812799",
+          "longitude": "96.182038"
+        },
+        {
+          "slug": "malwe-kone-railway-station-YKVQQS",
+          "title": "Malwe Kone Railway Station",
+          "time": "03:35 PM",
+          "latitude": "16.802728",
+          "longitude": "96.181566"
+        },
+        {
+          "slug": "puzon-taung-railway-station-yTa2cJ",
+          "title": "Puzon Taung Railway Station",
+          "time": "03:40 PM",
+          "latitude": "16.786135",
+          "longitude": "96.174893"
+        },
+        {
+          "slug": "yangon-central-railway-station-kFdZa0",
+          "title": "Yangon Central Railway Station",
+          "time": "03:50 PM",
+          "latitude": "16.781076",
+          "longitude": "96.161943"
+        }
+      ]
+    },
+    {
+      "slug": "k-6-ainsein-jRspNX",
+      "title": "က-၆ (အင်းစိန်)",
+      "description": "ရက-ကမတ-အစ (ယာရစ်)",
+      "direction": {
+        "text": "Clockwise",
+        "color": "16a34a"
+      },
+      "origin_station_title": "Yangon Central Railway Station",
+      "origin_station_time": "03:25 PM",
+      "destination_station_title": "Insein Railway Station",
+      "destination_station_time": "04:45 PM",
+      "total_stations": 17,
+      "traveling_minutes": 80,
+      "station_schedules": [
+        {
+          "slug": "yangon-central-railway-station-kFdZa0",
+          "title": "Yangon Central Railway Station",
+          "time": "03:25 PM",
+          "latitude": "16.781076",
+          "longitude": "96.161943"
+        },
+        {
+          "slug": "phaya-lan-railway-station-R1931G",
+          "title": "Phaya Lan Railway Station",
+          "time": "03:30 PM",
+          "latitude": "16.78133",
+          "longitude": "96.1544"
+        },
+        {
+          "slug": "lanmadaw-railway-station-XWcsyb",
+          "title": "Lanmadaw Railway Station",
+          "time": "03:35 PM",
+          "latitude": "16.78148",
+          "longitude": "96.14881"
+        },
+        {
+          "slug": "pyay-lan-railway-station-BOppHJ",
+          "title": "Pyay Lan Railway Station",
+          "time": "03:40 PM",
+          "latitude": "16.78412",
+          "longitude": "96.14351"
+        },
+        {
+          "slug": "shan-lan-railway-station-PRTWik",
+          "title": "Shan Lan Railway Station",
+          "time": "03:45 PM",
+          "latitude": "16.78642",
+          "longitude": "96.13471"
+        },
+        {
+          "slug": "ahlone-railway-station-Z1xZmE",
+          "title": "Ahlone Railway Station",
+          "time": "03:50 PM",
+          "latitude": "16.79126",
+          "longitude": "96.1307"
+        },
+        {
+          "slug": "pann-hlaing-railway-station-bunIom",
+          "title": "Pann Hlaing Railway Station",
+          "time": "03:55 PM",
+          "latitude": "16.79746",
+          "longitude": "96.12775"
+        },
+        {
+          "slug": "kyimyindaing-railway-station-7q8uHU",
+          "title": "Kyimyindaing Railway Station",
+          "time": "04:00 PM",
+          "latitude": "16.806195",
+          "longitude": "96.126511"
+        },
+        {
+          "slug": "hanthawaddy-railway-station-Bu4wAM",
+          "title": "Hanthawaddy Railway Station",
+          "time": "04:05 PM",
+          "latitude": "16.816701",
+          "longitude": "96.126227"
+        },
+        {
+          "slug": "hledan-railway-station-2dZt8n",
+          "title": "Hledan Railway Station",
+          "time": "04:10 PM",
+          "latitude": "16.824712",
+          "longitude": "96.124773"
+        },
+        {
+          "slug": "kamayut-railway-station-3QJS4l",
+          "title": "Kamayut Railway Station",
+          "time": "04:15 PM",
+          "latitude": "16.840285",
+          "longitude": "96.120155"
+        },
+        {
+          "slug": "thiri-myaing-railway-station-9OCF7z",
+          "title": "Thiri Myaing Railway Station",
+          "time": "04:20 PM",
+          "latitude": "16.849285",
+          "longitude": "96.117767"
+        },
+        {
+          "slug": "oakyinn-railway-station-ro8vvn",
+          "title": "Oakyinn Railway Station",
+          "time": "04:25 PM",
+          "latitude": "16.855287",
+          "longitude": "96.116163"
+        },
+        {
+          "slug": "thamine-railway-station-KkZfEl",
+          "title": "Thamine Railway Station",
+          "time": "04:30 PM",
+          "latitude": "16.861273",
+          "longitude": "96.114597"
+        },
+        {
+          "slug": "thamine-myo-thit-railway-station-gkUdWX",
+          "title": "Thamine Myo Thit Railway Station",
+          "time": "04:35 PM",
+          "latitude": "16.867079",
+          "longitude": "96.113047"
+        },
+        {
+          "slug": "gyo-gone-railway-station-Y6dbZG",
+          "title": "Gyo Gone Railway Station",
+          "time": "04:40 PM",
+          "latitude": "16.87443",
+          "longitude": "96.111"
+        },
+        {
+          "slug": "insein-railway-station-n8QrlP",
+          "title": "Insein Railway Station",
+          "time": "04:45 PM",
+          "latitude": "16.88499",
+          "longitude": "96.107076"
+        }
+      ]
+    },
+    {
+      "slug": "kh-1-yaankon-sQs8s2",
+      "title": "ခ-၁ (ရန်ကုန်)",
+      "description": "အစ-မဂလဒ-ရက (ယာရစ်)",
+      "direction": {
+        "text": "Clockwise",
+        "color": "16a34a"
+      },
+      "origin_station_title": "Insein Railway Station",
+      "origin_station_time": "08:00 AM",
+      "destination_station_title": "Yangon Central Railway Station",
+      "destination_station_time": "09:55 AM",
+      "total_stations": 23,
+      "traveling_minutes": 115,
+      "station_schedules": [
+        {
+          "slug": "insein-railway-station-n8QrlP",
+          "title": "Insein Railway Station",
+          "time": "08:00 AM",
+          "latitude": "16.88499",
+          "longitude": "96.107076"
+        },
+        {
+          "slug": "ywa-ma-railway-station-mPA80b",
+          "title": "Ywa Ma Railway Station",
+          "time": "08:05 AM",
+          "latitude": "16.89789",
+          "longitude": "96.09896"
+        },
+        {
+          "slug": "phawt-kan-railway-station-4KJGj9",
+          "title": "Phawt Kan Railway Station",
+          "time": "08:10 AM",
+          "latitude": "16.90765",
+          "longitude": "96.09283"
+        },
+        {
+          "slug": "aung-san-railway-station-3syrHS",
+          "title": "Aung San Railway Station",
+          "time": "08:15 AM",
+          "latitude": "16.91503",
+          "longitude": "96.09288"
+        },
+        {
+          "slug": "da-nyin-gone-railway-station-mxkghY",
+          "title": "Da Nyin Gone Railway Station",
+          "time": "08:20 AM",
+          "latitude": "16.932804",
+          "longitude": "96.093874"
+        },
+        {
+          "slug": "golf-course-railway-station-0eVKKo",
+          "title": "Golf Course Railway Station",
+          "time": "08:25 AM",
+          "latitude": "16.93551",
+          "longitude": "96.10444"
+        },
+        {
+          "slug": "kyait-ka-lei-railway-station-IPMR1C",
+          "title": "Kyait Ka Lei Railway Station",
+          "time": "08:30 AM",
+          "latitude": "16.94071",
+          "longitude": "96.12768"
+        },
+        {
+          "slug": "mingaladon-market-railway-station-lCJchN",
+          "title": "Mingaladon Market Railway Station",
+          "time": "08:35 AM",
+          "latitude": "16.937135",
+          "longitude": "96.138485"
+        },
+        {
+          "slug": "mingaladon-railway-station-EE4HwY",
+          "title": "Mingaladon Railway Station",
+          "time": "08:40 AM",
+          "latitude": "16.930849",
+          "longitude": "96.145003"
+        },
+        {
+          "slug": "we-bagi-railway-station-POuvb8",
+          "title": "We Bagi Railway Station",
+          "time": "08:45 AM",
+          "latitude": "16.92104",
+          "longitude": "96.1469"
+        },
+        {
+          "slug": "ukkala-railway-station-XUyJzZ",
+          "title": "Ukkala Railway Station",
+          "time": "08:50 AM",
+          "latitude": "16.90707",
+          "longitude": "96.14789"
+        },
+        {
+          "slug": "puzon-taung-railway-station-cToG0J",
+          "title": "Puzon Taung Railway Station",
+          "time": "08:55 AM",
+          "latitude": "16.90055",
+          "longitude": "96.15021"
+        },
+        {
+          "slug": "kyaung-hla-railway-station-meB5DI",
+          "title": "Kyaung Hla Railway Station",
+          "time": "09:00 AM",
+          "latitude": "16.88984",
+          "longitude": "96.15304"
+        },
+        {
+          "slug": "bridge-four-railway-station-6tBqb5",
+          "title": "Bridge Four Railway Station",
+          "time": "09:05 AM",
+          "latitude": "16.87839",
+          "longitude": "96.1554"
+        },
+        {
+          "slug": "swimming-railway-station-QhC0r7",
+          "title": "Swimming Railway Station",
+          "time": "09:10 AM",
+          "latitude": "16.86406",
+          "longitude": "96.15872"
+        },
+        {
+          "slug": "parami-railway-station-a9QIn6",
+          "title": "Parami Railway Station",
+          "time": "09:15 AM",
+          "latitude": "16.85123",
+          "longitude": "96.16495"
+        },
+        {
+          "slug": "kanbe-railway-station-3fAo9V",
+          "title": "Kanbe Railway Station",
+          "time": "09:20 AM",
+          "latitude": "16.84349",
+          "longitude": "96.16903"
+        },
+        {
+          "slug": "bauk-thaw-railway-station-m755FK",
+          "title": "Bauk Thaw Railway Station",
+          "time": "09:25 AM",
+          "latitude": "16.8296",
+          "longitude": "96.1761"
+        },
+        {
+          "slug": "tamwe-railway-station-9BtYE2",
+          "title": "Tamwe Railway Station",
+          "time": "09:30 AM",
+          "latitude": "16.82111",
+          "longitude": "96.1791"
+        },
+        {
+          "slug": "metta-nyaung-railway-station-w0Kd3g",
+          "title": "Metta Nyaung Railway Station",
+          "time": "09:35 AM",
+          "latitude": "16.812799",
+          "longitude": "96.182038"
+        },
+        {
+          "slug": "malwe-kone-railway-station-YKVQQS",
+          "title": "Malwe Kone Railway Station",
+          "time": "09:40 AM",
+          "latitude": "16.802728",
+          "longitude": "96.181566"
+        },
+        {
+          "slug": "puzon-taung-railway-station-yTa2cJ",
+          "title": "Puzon Taung Railway Station",
+          "time": "09:45 AM",
+          "latitude": "16.786135",
+          "longitude": "96.174893"
+        },
+        {
+          "slug": "yangon-central-railway-station-kFdZa0",
+          "title": "Yangon Central Railway Station",
+          "time": "09:55 AM",
+          "latitude": "16.781076",
+          "longitude": "96.161943"
+        }
+      ]
+    },
+    {
+      "slug": "kh-2-ainsein-NSj3sL",
+      "title": "ခ-၂ (အင်းစိန်)",
+      "description": "ရက-ကမတ-အစ (ယာရစ်)",
+      "direction": {
+        "text": "Clockwise",
+        "color": "16a34a"
+      },
+      "origin_station_title": "Yangon Central Railway Station",
+      "origin_station_time": "09:30 AM",
+      "destination_station_title": "Insein Railway Station",
+      "destination_station_time": "10:50 AM",
+      "total_stations": 17,
+      "traveling_minutes": 80,
+      "station_schedules": [
+        {
+          "slug": "yangon-central-railway-station-kFdZa0",
+          "title": "Yangon Central Railway Station",
+          "time": "09:30 AM",
+          "latitude": "16.781076",
+          "longitude": "96.161943"
+        },
+        {
+          "slug": "phaya-lan-railway-station-R1931G",
+          "title": "Phaya Lan Railway Station",
+          "time": "09:35 AM",
+          "latitude": "16.78133",
+          "longitude": "96.1544"
+        },
+        {
+          "slug": "lanmadaw-railway-station-XWcsyb",
+          "title": "Lanmadaw Railway Station",
+          "time": "09:40 AM",
+          "latitude": "16.78148",
+          "longitude": "96.14881"
+        },
+        {
+          "slug": "pyay-lan-railway-station-BOppHJ",
+          "title": "Pyay Lan Railway Station",
+          "time": "09:45 AM",
+          "latitude": "16.78412",
+          "longitude": "96.14351"
+        },
+        {
+          "slug": "shan-lan-railway-station-PRTWik",
+          "title": "Shan Lan Railway Station",
+          "time": "09:50 AM",
+          "latitude": "16.78642",
+          "longitude": "96.13471"
+        },
+        {
+          "slug": "ahlone-railway-station-Z1xZmE",
+          "title": "Ahlone Railway Station",
+          "time": "09:55 AM",
+          "latitude": "16.79126",
+          "longitude": "96.1307"
+        },
+        {
+          "slug": "pann-hlaing-railway-station-bunIom",
+          "title": "Pann Hlaing Railway Station",
+          "time": "10:00 AM",
+          "latitude": "16.79746",
+          "longitude": "96.12775"
+        },
+        {
+          "slug": "kyimyindaing-railway-station-7q8uHU",
+          "title": "Kyimyindaing Railway Station",
+          "time": "10:05 AM",
+          "latitude": "16.806195",
+          "longitude": "96.126511"
+        },
+        {
+          "slug": "hanthawaddy-railway-station-Bu4wAM",
+          "title": "Hanthawaddy Railway Station",
+          "time": "10:10 AM",
+          "latitude": "16.816701",
+          "longitude": "96.126227"
+        },
+        {
+          "slug": "hledan-railway-station-2dZt8n",
+          "title": "Hledan Railway Station",
+          "time": "10:15 AM",
+          "latitude": "16.824712",
+          "longitude": "96.124773"
+        },
+        {
+          "slug": "kamayut-railway-station-3QJS4l",
+          "title": "Kamayut Railway Station",
+          "time": "10:20 AM",
+          "latitude": "16.840285",
+          "longitude": "96.120155"
+        },
+        {
+          "slug": "thiri-myaing-railway-station-9OCF7z",
+          "title": "Thiri Myaing Railway Station",
+          "time": "10:25 AM",
+          "latitude": "16.849285",
+          "longitude": "96.117767"
+        },
+        {
+          "slug": "oakyinn-railway-station-ro8vvn",
+          "title": "Oakyinn Railway Station",
+          "time": "10:30 AM",
+          "latitude": "16.855287",
+          "longitude": "96.116163"
+        },
+        {
+          "slug": "thamine-railway-station-KkZfEl",
+          "title": "Thamine Railway Station",
+          "time": "10:35 AM",
+          "latitude": "16.861273",
+          "longitude": "96.114597"
+        },
+        {
+          "slug": "thamine-myo-thit-railway-station-gkUdWX",
+          "title": "Thamine Myo Thit Railway Station",
+          "time": "10:40 AM",
+          "latitude": "16.867079",
+          "longitude": "96.113047"
+        },
+        {
+          "slug": "gyo-gone-railway-station-Y6dbZG",
+          "title": "Gyo Gone Railway Station",
+          "time": "10:45 AM",
+          "latitude": "16.87443",
+          "longitude": "96.111"
+        },
+        {
+          "slug": "insein-railway-station-n8QrlP",
+          "title": "Insein Railway Station",
+          "time": "10:50 AM",
+          "latitude": "16.88499",
+          "longitude": "96.107076"
+        }
+      ]
+    },
+    {
+      "slug": "kh-3-yaankon-gTUWfN",
+      "title": "ခ-၃ (ရန်ကုန်)",
+      "description": "အစ-ကမတ-ရက (ဝဲရစ်)",
+      "direction": {
+        "text": "Anticlockwise",
+        "color": "2563eb"
+      },
+      "origin_station_title": "Insein Railway Station",
+      "origin_station_time": "02:40 PM",
+      "destination_station_title": "Yangon Central Railway Station",
+      "destination_station_time": "04:00 PM",
+      "total_stations": 17,
+      "traveling_minutes": 80,
+      "station_schedules": [
+        {
+          "slug": "insein-railway-station-n8QrlP",
+          "title": "Insein Railway Station",
+          "time": "02:40 PM",
+          "latitude": "16.88499",
+          "longitude": "96.107076"
+        },
+        {
+          "slug": "gyo-gone-railway-station-Y6dbZG",
+          "title": "Gyo Gone Railway Station",
+          "time": "02:45 PM",
+          "latitude": "16.87443",
+          "longitude": "96.111"
+        },
+        {
+          "slug": "thamine-myo-thit-railway-station-gkUdWX",
+          "title": "Thamine Myo Thit Railway Station",
+          "time": "02:50 PM",
+          "latitude": "16.867079",
+          "longitude": "96.113047"
+        },
+        {
+          "slug": "thamine-railway-station-KkZfEl",
+          "title": "Thamine Railway Station",
+          "time": "02:55 PM",
+          "latitude": "16.861273",
+          "longitude": "96.114597"
+        },
+        {
+          "slug": "oakyinn-railway-station-ro8vvn",
+          "title": "Oakyinn Railway Station",
+          "time": "03:00 PM",
+          "latitude": "16.855287",
+          "longitude": "96.116163"
+        },
+        {
+          "slug": "thiri-myaing-railway-station-9OCF7z",
+          "title": "Thiri Myaing Railway Station",
+          "time": "03:05 PM",
+          "latitude": "16.849285",
+          "longitude": "96.117767"
+        },
+        {
+          "slug": "kamayut-railway-station-3QJS4l",
+          "title": "Kamayut Railway Station",
+          "time": "03:10 PM",
+          "latitude": "16.840285",
+          "longitude": "96.120155"
+        },
+        {
+          "slug": "hledan-railway-station-2dZt8n",
+          "title": "Hledan Railway Station",
+          "time": "03:15 PM",
+          "latitude": "16.824712",
+          "longitude": "96.124773"
+        },
+        {
+          "slug": "hanthawaddy-railway-station-Bu4wAM",
+          "title": "Hanthawaddy Railway Station",
+          "time": "03:20 PM",
+          "latitude": "16.816701",
+          "longitude": "96.126227"
+        },
+        {
+          "slug": "kyimyindaing-railway-station-7q8uHU",
+          "title": "Kyimyindaing Railway Station",
+          "time": "03:25 PM",
+          "latitude": "16.806195",
+          "longitude": "96.126511"
+        },
+        {
+          "slug": "pann-hlaing-railway-station-bunIom",
+          "title": "Pann Hlaing Railway Station",
+          "time": "03:30 PM",
+          "latitude": "16.79746",
+          "longitude": "96.12775"
+        },
+        {
+          "slug": "ahlone-railway-station-Z1xZmE",
+          "title": "Ahlone Railway Station",
+          "time": "03:35 PM",
+          "latitude": "16.79126",
+          "longitude": "96.1307"
+        },
+        {
+          "slug": "shan-lan-railway-station-PRTWik",
+          "title": "Shan Lan Railway Station",
+          "time": "03:40 PM",
+          "latitude": "16.78642",
+          "longitude": "96.13471"
+        },
+        {
+          "slug": "pyay-lan-railway-station-BOppHJ",
+          "title": "Pyay Lan Railway Station",
+          "time": "03:45 PM",
+          "latitude": "16.78412",
+          "longitude": "96.14351"
+        },
+        {
+          "slug": "lanmadaw-railway-station-XWcsyb",
+          "title": "Lanmadaw Railway Station",
+          "time": "03:50 PM",
+          "latitude": "16.78148",
+          "longitude": "96.14881"
+        },
+        {
+          "slug": "phaya-lan-railway-station-R1931G",
+          "title": "Phaya Lan Railway Station",
+          "time": "03:55 PM",
+          "latitude": "16.78133",
+          "longitude": "96.1544"
+        },
+        {
+          "slug": "yangon-central-railway-station-kFdZa0",
+          "title": "Yangon Central Railway Station",
+          "time": "04:00 PM",
+          "latitude": "16.781076",
+          "longitude": "96.161943"
+        }
+      ]
+    },
+    {
+      "slug": "kh-4-ainsein-HaIfWq",
+      "title": "ခ-၄ (အင်းစိန်)",
+      "description": "ရက-မဂလဒ-အစ (ဝဲရစ်)",
+      "direction": {
+        "text": "Anticlockwise",
+        "color": "2563eb"
+      },
+      "origin_station_title": "Yangon Central Railway Station",
+      "origin_station_time": "03:35 PM",
+      "destination_station_title": "Insein Railway Station",
+      "destination_station_time": "05:30 PM",
+      "total_stations": 23,
+      "traveling_minutes": 115,
+      "station_schedules": [
+        {
+          "slug": "yangon-central-railway-station-kFdZa0",
+          "title": "Yangon Central Railway Station",
+          "time": "03:35 PM",
+          "latitude": "16.781076",
+          "longitude": "96.161943"
+        },
+        {
+          "slug": "puzon-taung-railway-station-yTa2cJ",
+          "title": "Puzon Taung Railway Station",
+          "time": "03:45 PM",
+          "latitude": "16.786135",
+          "longitude": "96.174893"
+        },
+        {
+          "slug": "malwe-kone-railway-station-YKVQQS",
+          "title": "Malwe Kone Railway Station",
+          "time": "03:50 PM",
+          "latitude": "16.802728",
+          "longitude": "96.181566"
+        },
+        {
+          "slug": "metta-nyaung-railway-station-w0Kd3g",
+          "title": "Metta Nyaung Railway Station",
+          "time": "03:55 PM",
+          "latitude": "16.812799",
+          "longitude": "96.182038"
+        },
+        {
+          "slug": "tamwe-railway-station-9BtYE2",
+          "title": "Tamwe Railway Station",
+          "time": "04:00 PM",
+          "latitude": "16.82111",
+          "longitude": "96.1791"
+        },
+        {
+          "slug": "bauk-thaw-railway-station-m755FK",
+          "title": "Bauk Thaw Railway Station",
+          "time": "04:05 PM",
+          "latitude": "16.8296",
+          "longitude": "96.1761"
+        },
+        {
+          "slug": "kanbe-railway-station-3fAo9V",
+          "title": "Kanbe Railway Station",
+          "time": "04:10 PM",
+          "latitude": "16.84349",
+          "longitude": "96.16903"
+        },
+        {
+          "slug": "parami-railway-station-a9QIn6",
+          "title": "Parami Railway Station",
+          "time": "04:15 PM",
+          "latitude": "16.85123",
+          "longitude": "96.16495"
+        },
+        {
+          "slug": "swimming-railway-station-QhC0r7",
+          "title": "Swimming Railway Station",
+          "time": "04:20 PM",
+          "latitude": "16.86406",
+          "longitude": "96.15872"
+        },
+        {
+          "slug": "bridge-four-railway-station-6tBqb5",
+          "title": "Bridge Four Railway Station",
+          "time": "04:25 PM",
+          "latitude": "16.87839",
+          "longitude": "96.1554"
+        },
+        {
+          "slug": "kyaung-hla-railway-station-meB5DI",
+          "title": "Kyaung Hla Railway Station",
+          "time": "04:30 PM",
+          "latitude": "16.88984",
+          "longitude": "96.15304"
+        },
+        {
+          "slug": "puzon-taung-railway-station-cToG0J",
+          "title": "Puzon Taung Railway Station",
+          "time": "04:35 PM",
+          "latitude": "16.90055",
+          "longitude": "96.15021"
+        },
+        {
+          "slug": "ukkala-railway-station-XUyJzZ",
+          "title": "Ukkala Railway Station",
+          "time": "04:40 PM",
+          "latitude": "16.90707",
+          "longitude": "96.14789"
+        },
+        {
+          "slug": "we-bagi-railway-station-POuvb8",
+          "title": "We Bagi Railway Station",
+          "time": "04:45 PM",
+          "latitude": "16.92104",
+          "longitude": "96.1469"
+        },
+        {
+          "slug": "mingaladon-railway-station-EE4HwY",
+          "title": "Mingaladon Railway Station",
+          "time": "04:50 PM",
+          "latitude": "16.930849",
+          "longitude": "96.145003"
+        },
+        {
+          "slug": "mingaladon-market-railway-station-lCJchN",
+          "title": "Mingaladon Market Railway Station",
+          "time": "04:55 PM",
+          "latitude": "16.937135",
+          "longitude": "96.138485"
+        },
+        {
+          "slug": "kyait-ka-lei-railway-station-IPMR1C",
+          "title": "Kyait Ka Lei Railway Station",
+          "time": "05:00 PM",
+          "latitude": "16.94071",
+          "longitude": "96.12768"
+        },
+        {
+          "slug": "golf-course-railway-station-0eVKKo",
+          "title": "Golf Course Railway Station",
+          "time": "05:05 PM",
+          "latitude": "16.93551",
+          "longitude": "96.10444"
+        },
+        {
+          "slug": "da-nyin-gone-railway-station-mxkghY",
+          "title": "Da Nyin Gone Railway Station",
+          "time": "05:10 PM",
+          "latitude": "16.932804",
+          "longitude": "96.093874"
+        },
+        {
+          "slug": "aung-san-railway-station-3syrHS",
+          "title": "Aung San Railway Station",
+          "time": "05:15 PM",
+          "latitude": "16.91503",
+          "longitude": "96.09288"
+        },
+        {
+          "slug": "phawt-kan-railway-station-4KJGj9",
+          "title": "Phawt Kan Railway Station",
+          "time": "05:20 PM",
+          "latitude": "16.90765",
+          "longitude": "96.09283"
+        },
+        {
+          "slug": "ywa-ma-railway-station-mPA80b",
+          "title": "Ywa Ma Railway Station",
+          "time": "05:25 PM",
+          "latitude": "16.89789",
+          "longitude": "96.09896"
+        },
+        {
+          "slug": "insein-railway-station-n8QrlP",
+          "title": "Insein Railway Station",
+          "time": "05:30 PM",
+          "latitude": "16.88499",
+          "longitude": "96.107076"
+        }
+      ]
+    },
+    {
+      "slug": "s-1-yaankon-O4n1aQ",
+      "title": "စ-၁ (ရန်ကုန်)",
+      "description": "အစ-မဂလဒ-ရက (ယာရစ်)",
+      "direction": {
+        "text": "Clockwise",
+        "color": "16a34a"
+      },
+      "origin_station_title": "Insein Railway Station",
+      "origin_station_time": "05:30 AM",
+      "destination_station_title": "Yangon Central Railway Station",
+      "destination_station_time": "07:25 AM",
+      "total_stations": 23,
+      "traveling_minutes": 115,
+      "station_schedules": [
+        {
+          "slug": "insein-railway-station-n8QrlP",
+          "title": "Insein Railway Station",
+          "time": "05:30 AM",
+          "latitude": "16.88499",
+          "longitude": "96.107076"
+        },
+        {
+          "slug": "ywa-ma-railway-station-mPA80b",
+          "title": "Ywa Ma Railway Station",
+          "time": "05:35 AM",
+          "latitude": "16.89789",
+          "longitude": "96.09896"
+        },
+        {
+          "slug": "phawt-kan-railway-station-4KJGj9",
+          "title": "Phawt Kan Railway Station",
+          "time": "05:40 AM",
+          "latitude": "16.90765",
+          "longitude": "96.09283"
+        },
+        {
+          "slug": "aung-san-railway-station-3syrHS",
+          "title": "Aung San Railway Station",
+          "time": "05:45 AM",
+          "latitude": "16.91503",
+          "longitude": "96.09288"
+        },
+        {
+          "slug": "da-nyin-gone-railway-station-mxkghY",
+          "title": "Da Nyin Gone Railway Station",
+          "time": "05:50 AM",
+          "latitude": "16.932804",
+          "longitude": "96.093874"
+        },
+        {
+          "slug": "golf-course-railway-station-0eVKKo",
+          "title": "Golf Course Railway Station",
+          "time": "05:55 AM",
+          "latitude": "16.93551",
+          "longitude": "96.10444"
+        },
+        {
+          "slug": "kyait-ka-lei-railway-station-IPMR1C",
+          "title": "Kyait Ka Lei Railway Station",
+          "time": "06:00 AM",
+          "latitude": "16.94071",
+          "longitude": "96.12768"
+        },
+        {
+          "slug": "mingaladon-market-railway-station-lCJchN",
+          "title": "Mingaladon Market Railway Station",
+          "time": "06:05 AM",
+          "latitude": "16.937135",
+          "longitude": "96.138485"
+        },
+        {
+          "slug": "mingaladon-railway-station-EE4HwY",
+          "title": "Mingaladon Railway Station",
+          "time": "06:10 AM",
+          "latitude": "16.930849",
+          "longitude": "96.145003"
+        },
+        {
+          "slug": "we-bagi-railway-station-POuvb8",
+          "title": "We Bagi Railway Station",
+          "time": "06:15 AM",
+          "latitude": "16.92104",
+          "longitude": "96.1469"
+        },
+        {
+          "slug": "ukkala-railway-station-XUyJzZ",
+          "title": "Ukkala Railway Station",
+          "time": "06:20 AM",
+          "latitude": "16.90707",
+          "longitude": "96.14789"
+        },
+        {
+          "slug": "puzon-taung-railway-station-cToG0J",
+          "title": "Puzon Taung Railway Station",
+          "time": "06:25 AM",
+          "latitude": "16.90055",
+          "longitude": "96.15021"
+        },
+        {
+          "slug": "kyaung-hla-railway-station-meB5DI",
+          "title": "Kyaung Hla Railway Station",
+          "time": "06:30 AM",
+          "latitude": "16.88984",
+          "longitude": "96.15304"
+        },
+        {
+          "slug": "bridge-four-railway-station-6tBqb5",
+          "title": "Bridge Four Railway Station",
+          "time": "06:35 AM",
+          "latitude": "16.87839",
+          "longitude": "96.1554"
+        },
+        {
+          "slug": "swimming-railway-station-QhC0r7",
+          "title": "Swimming Railway Station",
+          "time": "06:40 AM",
+          "latitude": "16.86406",
+          "longitude": "96.15872"
+        },
+        {
+          "slug": "parami-railway-station-a9QIn6",
+          "title": "Parami Railway Station",
+          "time": "06:45 AM",
+          "latitude": "16.85123",
+          "longitude": "96.16495"
+        },
+        {
+          "slug": "kanbe-railway-station-3fAo9V",
+          "title": "Kanbe Railway Station",
+          "time": "06:50 AM",
+          "latitude": "16.84349",
+          "longitude": "96.16903"
+        },
+        {
+          "slug": "bauk-thaw-railway-station-m755FK",
+          "title": "Bauk Thaw Railway Station",
+          "time": "06:55 AM",
+          "latitude": "16.8296",
+          "longitude": "96.1761"
+        },
+        {
+          "slug": "tamwe-railway-station-9BtYE2",
+          "title": "Tamwe Railway Station",
+          "time": "07:00 AM",
+          "latitude": "16.82111",
+          "longitude": "96.1791"
+        },
+        {
+          "slug": "metta-nyaung-railway-station-w0Kd3g",
+          "title": "Metta Nyaung Railway Station",
+          "time": "07:05 AM",
+          "latitude": "16.812799",
+          "longitude": "96.182038"
+        },
+        {
+          "slug": "malwe-kone-railway-station-YKVQQS",
+          "title": "Malwe Kone Railway Station",
+          "time": "07:10 AM",
+          "latitude": "16.802728",
+          "longitude": "96.181566"
+        },
+        {
+          "slug": "puzon-taung-railway-station-yTa2cJ",
+          "title": "Puzon Taung Railway Station",
+          "time": "07:15 AM",
+          "latitude": "16.786135",
+          "longitude": "96.174893"
+        },
+        {
+          "slug": "yangon-central-railway-station-kFdZa0",
+          "title": "Yangon Central Railway Station",
+          "time": "07:25 AM",
+          "latitude": "16.781076",
+          "longitude": "96.161943"
+        }
+      ]
+    },
+    {
+      "slug": "s-2-myopat-WCochZ",
+      "title": "စ-၂ (မြို့ပတ်)",
+      "description": "ရက-မဂလဒ-အစ-ရက (ဝဲရစ်)",
+      "direction": {
+        "text": "Anticlockwise",
+        "color": "2563eb"
+      },
+      "origin_station_title": "Yangon Central Railway Station",
+      "origin_station_time": "09:55 AM",
+      "destination_station_title": "Insein Railway Station",
+      "destination_station_time": "09:50 AM",
+      "total_stations": 0,
+      "traveling_minutes": 5,
+      "station_schedules": []
+    },
+    {
+      "slug": "s-3-myopat-v92gJI",
+      "title": "စ-၃ (မြို့ပတ်)",
+      "description": "ရက-အစ-မဂလဒ-ရက (ယာရစ်)",
+      "direction": {
+        "text": "Clockwise",
+        "color": "16a34a"
+      },
+      "origin_station_title": "Yangon Central Railway Station",
+      "origin_station_time": "12:25 PM",
+      "destination_station_title": "Puzon Taung Railway Station",
+      "destination_station_time": "12:15 PM",
+      "total_stations": 0,
+      "traveling_minutes": 10,
+      "station_schedules": []
+    },
+    {
+      "slug": "s-4-ainsein-aGpeSb",
+      "title": "စ-၄ (အင်းစိန်)",
+      "description": "ရက-မဂလဒ-အစ (ဝဲရစ်)",
+      "direction": {
+        "text": "Anticlockwise",
+        "color": "2563eb"
+      },
+      "origin_station_title": "Yangon Central Railway Station",
+      "origin_station_time": "12:55 PM",
+      "destination_station_title": "Insein Railway Station",
+      "destination_station_time": "02:50 PM",
+      "total_stations": 23,
+      "traveling_minutes": 115,
+      "station_schedules": [
+        {
+          "slug": "yangon-central-railway-station-kFdZa0",
+          "title": "Yangon Central Railway Station",
+          "time": "12:55 PM",
+          "latitude": "16.781076",
+          "longitude": "96.161943"
+        },
+        {
+          "slug": "puzon-taung-railway-station-yTa2cJ",
+          "title": "Puzon Taung Railway Station",
+          "time": "01:05 PM",
+          "latitude": "16.786135",
+          "longitude": "96.174893"
+        },
+        {
+          "slug": "malwe-kone-railway-station-YKVQQS",
+          "title": "Malwe Kone Railway Station",
+          "time": "01:10 PM",
+          "latitude": "16.802728",
+          "longitude": "96.181566"
+        },
+        {
+          "slug": "metta-nyaung-railway-station-w0Kd3g",
+          "title": "Metta Nyaung Railway Station",
+          "time": "01:15 PM",
+          "latitude": "16.812799",
+          "longitude": "96.182038"
+        },
+        {
+          "slug": "tamwe-railway-station-9BtYE2",
+          "title": "Tamwe Railway Station",
+          "time": "01:20 PM",
+          "latitude": "16.82111",
+          "longitude": "96.1791"
+        },
+        {
+          "slug": "bauk-thaw-railway-station-m755FK",
+          "title": "Bauk Thaw Railway Station",
+          "time": "01:25 PM",
+          "latitude": "16.8296",
+          "longitude": "96.1761"
+        },
+        {
+          "slug": "kanbe-railway-station-3fAo9V",
+          "title": "Kanbe Railway Station",
+          "time": "01:30 PM",
+          "latitude": "16.84349",
+          "longitude": "96.16903"
+        },
+        {
+          "slug": "parami-railway-station-a9QIn6",
+          "title": "Parami Railway Station",
+          "time": "01:35 PM",
+          "latitude": "16.85123",
+          "longitude": "96.16495"
+        },
+        {
+          "slug": "swimming-railway-station-QhC0r7",
+          "title": "Swimming Railway Station",
+          "time": "01:40 PM",
+          "latitude": "16.86406",
+          "longitude": "96.15872"
+        },
+        {
+          "slug": "bridge-four-railway-station-6tBqb5",
+          "title": "Bridge Four Railway Station",
+          "time": "01:45 PM",
+          "latitude": "16.87839",
+          "longitude": "96.1554"
+        },
+        {
+          "slug": "kyaung-hla-railway-station-meB5DI",
+          "title": "Kyaung Hla Railway Station",
+          "time": "01:50 PM",
+          "latitude": "16.88984",
+          "longitude": "96.15304"
+        },
+        {
+          "slug": "puzon-taung-railway-station-cToG0J",
+          "title": "Puzon Taung Railway Station",
+          "time": "01:55 PM",
+          "latitude": "16.90055",
+          "longitude": "96.15021"
+        },
+        {
+          "slug": "ukkala-railway-station-XUyJzZ",
+          "title": "Ukkala Railway Station",
+          "time": "02:00 PM",
+          "latitude": "16.90707",
+          "longitude": "96.14789"
+        },
+        {
+          "slug": "we-bagi-railway-station-POuvb8",
+          "title": "We Bagi Railway Station",
+          "time": "02:05 PM",
+          "latitude": "16.92104",
+          "longitude": "96.1469"
+        },
+        {
+          "slug": "mingaladon-railway-station-EE4HwY",
+          "title": "Mingaladon Railway Station",
+          "time": "02:10 PM",
+          "latitude": "16.930849",
+          "longitude": "96.145003"
+        },
+        {
+          "slug": "mingaladon-market-railway-station-lCJchN",
+          "title": "Mingaladon Market Railway Station",
+          "time": "02:15 PM",
+          "latitude": "16.937135",
+          "longitude": "96.138485"
+        },
+        {
+          "slug": "kyait-ka-lei-railway-station-IPMR1C",
+          "title": "Kyait Ka Lei Railway Station",
+          "time": "02:20 PM",
+          "latitude": "16.94071",
+          "longitude": "96.12768"
+        },
+        {
+          "slug": "golf-course-railway-station-0eVKKo",
+          "title": "Golf Course Railway Station",
+          "time": "02:25 PM",
+          "latitude": "16.93551",
+          "longitude": "96.10444"
+        },
+        {
+          "slug": "da-nyin-gone-railway-station-mxkghY",
+          "title": "Da Nyin Gone Railway Station",
+          "time": "02:30 PM",
+          "latitude": "16.932804",
+          "longitude": "96.093874"
+        },
+        {
+          "slug": "aung-san-railway-station-3syrHS",
+          "title": "Aung San Railway Station",
+          "time": "02:35 PM",
+          "latitude": "16.91503",
+          "longitude": "96.09288"
+        },
+        {
+          "slug": "phawt-kan-railway-station-4KJGj9",
+          "title": "Phawt Kan Railway Station",
+          "time": "02:40 PM",
+          "latitude": "16.90765",
+          "longitude": "96.09283"
+        },
+        {
+          "slug": "ywa-ma-railway-station-mPA80b",
+          "title": "Ywa Ma Railway Station",
+          "time": "02:45 PM",
+          "latitude": "16.89789",
+          "longitude": "96.09896"
+        },
+        {
+          "slug": "insein-railway-station-n8QrlP",
+          "title": "Insein Railway Station",
+          "time": "02:50 PM",
+          "latitude": "16.88499",
+          "longitude": "96.107076"
+        }
+      ]
+    },
+    {
+      "slug": "s-5-yaankon-vFTQX6",
+      "title": "စ-၅ (ရန်ကုန်)",
+      "description": "အစ-ကမတ-ရက (ဝဲရစ်)",
+      "direction": {
+        "text": "Anticlockwise",
+        "color": "2563eb"
+      },
+      "origin_station_title": "Insein Railway Station",
+      "origin_station_time": "04:05 PM",
+      "destination_station_title": "Yangon Central Railway Station",
+      "destination_station_time": "05:25 PM",
+      "total_stations": 17,
+      "traveling_minutes": 80,
+      "station_schedules": [
+        {
+          "slug": "insein-railway-station-n8QrlP",
+          "title": "Insein Railway Station",
+          "time": "04:05 PM",
+          "latitude": "16.88499",
+          "longitude": "96.107076"
+        },
+        {
+          "slug": "gyo-gone-railway-station-Y6dbZG",
+          "title": "Gyo Gone Railway Station",
+          "time": "04:10 PM",
+          "latitude": "16.87443",
+          "longitude": "96.111"
+        },
+        {
+          "slug": "thamine-myo-thit-railway-station-gkUdWX",
+          "title": "Thamine Myo Thit Railway Station",
+          "time": "04:15 PM",
+          "latitude": "16.867079",
+          "longitude": "96.113047"
+        },
+        {
+          "slug": "thamine-railway-station-KkZfEl",
+          "title": "Thamine Railway Station",
+          "time": "04:20 PM",
+          "latitude": "16.861273",
+          "longitude": "96.114597"
+        },
+        {
+          "slug": "oakyinn-railway-station-ro8vvn",
+          "title": "Oakyinn Railway Station",
+          "time": "04:25 PM",
+          "latitude": "16.855287",
+          "longitude": "96.116163"
+        },
+        {
+          "slug": "thiri-myaing-railway-station-9OCF7z",
+          "title": "Thiri Myaing Railway Station",
+          "time": "04:30 PM",
+          "latitude": "16.849285",
+          "longitude": "96.117767"
+        },
+        {
+          "slug": "kamayut-railway-station-3QJS4l",
+          "title": "Kamayut Railway Station",
+          "time": "04:35 PM",
+          "latitude": "16.840285",
+          "longitude": "96.120155"
+        },
+        {
+          "slug": "hledan-railway-station-2dZt8n",
+          "title": "Hledan Railway Station",
+          "time": "04:40 PM",
+          "latitude": "16.824712",
+          "longitude": "96.124773"
+        },
+        {
+          "slug": "hanthawaddy-railway-station-Bu4wAM",
+          "title": "Hanthawaddy Railway Station",
+          "time": "04:45 PM",
+          "latitude": "16.816701",
+          "longitude": "96.126227"
+        },
+        {
+          "slug": "kyimyindaing-railway-station-7q8uHU",
+          "title": "Kyimyindaing Railway Station",
+          "time": "04:50 PM",
+          "latitude": "16.806195",
+          "longitude": "96.126511"
+        },
+        {
+          "slug": "pann-hlaing-railway-station-bunIom",
+          "title": "Pann Hlaing Railway Station",
+          "time": "04:55 PM",
+          "latitude": "16.79746",
+          "longitude": "96.12775"
+        },
+        {
+          "slug": "ahlone-railway-station-Z1xZmE",
+          "title": "Ahlone Railway Station",
+          "time": "05:00 PM",
+          "latitude": "16.79126",
+          "longitude": "96.1307"
+        },
+        {
+          "slug": "shan-lan-railway-station-PRTWik",
+          "title": "Shan Lan Railway Station",
+          "time": "05:05 PM",
+          "latitude": "16.78642",
+          "longitude": "96.13471"
+        },
+        {
+          "slug": "pyay-lan-railway-station-BOppHJ",
+          "title": "Pyay Lan Railway Station",
+          "time": "05:10 PM",
+          "latitude": "16.78412",
+          "longitude": "96.14351"
+        },
+        {
+          "slug": "lanmadaw-railway-station-XWcsyb",
+          "title": "Lanmadaw Railway Station",
+          "time": "05:15 PM",
+          "latitude": "16.78148",
+          "longitude": "96.14881"
+        },
+        {
+          "slug": "phaya-lan-railway-station-R1931G",
+          "title": "Phaya Lan Railway Station",
+          "time": "05:20 PM",
+          "latitude": "16.78133",
+          "longitude": "96.1544"
+        },
+        {
+          "slug": "yangon-central-railway-station-kFdZa0",
+          "title": "Yangon Central Railway Station",
+          "time": "05:25 PM",
+          "latitude": "16.781076",
+          "longitude": "96.161943"
+        }
+      ]
+    },
+    {
+      "slug": "s-6-ainsein-xowDOt",
+      "title": "စ-၆ (အင်းစိန်)",
+      "description": "ရက-မဂလဒ-အစ (ဝဲရစ်)",
+      "direction": {
+        "text": "Anticlockwise",
+        "color": "2563eb"
+      },
+      "origin_station_title": "Yangon Central Railway Station",
+      "origin_station_time": "05:15 PM",
+      "destination_station_title": "Insein Railway Station",
+      "destination_station_time": "07:10 PM",
+      "total_stations": 23,
+      "traveling_minutes": 115,
+      "station_schedules": [
+        {
+          "slug": "yangon-central-railway-station-kFdZa0",
+          "title": "Yangon Central Railway Station",
+          "time": "05:15 PM",
+          "latitude": "16.781076",
+          "longitude": "96.161943"
+        },
+        {
+          "slug": "puzon-taung-railway-station-yTa2cJ",
+          "title": "Puzon Taung Railway Station",
+          "time": "05:25 PM",
+          "latitude": "16.786135",
+          "longitude": "96.174893"
+        },
+        {
+          "slug": "malwe-kone-railway-station-YKVQQS",
+          "title": "Malwe Kone Railway Station",
+          "time": "05:30 PM",
+          "latitude": "16.802728",
+          "longitude": "96.181566"
+        },
+        {
+          "slug": "metta-nyaung-railway-station-w0Kd3g",
+          "title": "Metta Nyaung Railway Station",
+          "time": "05:35 PM",
+          "latitude": "16.812799",
+          "longitude": "96.182038"
+        },
+        {
+          "slug": "tamwe-railway-station-9BtYE2",
+          "title": "Tamwe Railway Station",
+          "time": "05:40 PM",
+          "latitude": "16.82111",
+          "longitude": "96.1791"
+        },
+        {
+          "slug": "bauk-thaw-railway-station-m755FK",
+          "title": "Bauk Thaw Railway Station",
+          "time": "05:45 PM",
+          "latitude": "16.8296",
+          "longitude": "96.1761"
+        },
+        {
+          "slug": "kanbe-railway-station-3fAo9V",
+          "title": "Kanbe Railway Station",
+          "time": "05:50 PM",
+          "latitude": "16.84349",
+          "longitude": "96.16903"
+        },
+        {
+          "slug": "parami-railway-station-a9QIn6",
+          "title": "Parami Railway Station",
+          "time": "05:55 PM",
+          "latitude": "16.85123",
+          "longitude": "96.16495"
+        },
+        {
+          "slug": "swimming-railway-station-QhC0r7",
+          "title": "Swimming Railway Station",
+          "time": "06:00 PM",
+          "latitude": "16.86406",
+          "longitude": "96.15872"
+        },
+        {
+          "slug": "bridge-four-railway-station-6tBqb5",
+          "title": "Bridge Four Railway Station",
+          "time": "06:05 PM",
+          "latitude": "16.87839",
+          "longitude": "96.1554"
+        },
+        {
+          "slug": "kyaung-hla-railway-station-meB5DI",
+          "title": "Kyaung Hla Railway Station",
+          "time": "06:10 PM",
+          "latitude": "16.88984",
+          "longitude": "96.15304"
+        },
+        {
+          "slug": "puzon-taung-railway-station-cToG0J",
+          "title": "Puzon Taung Railway Station",
+          "time": "06:15 PM",
+          "latitude": "16.90055",
+          "longitude": "96.15021"
+        },
+        {
+          "slug": "ukkala-railway-station-XUyJzZ",
+          "title": "Ukkala Railway Station",
+          "time": "06:20 PM",
+          "latitude": "16.90707",
+          "longitude": "96.14789"
+        },
+        {
+          "slug": "we-bagi-railway-station-POuvb8",
+          "title": "We Bagi Railway Station",
+          "time": "06:25 PM",
+          "latitude": "16.92104",
+          "longitude": "96.1469"
+        },
+        {
+          "slug": "mingaladon-railway-station-EE4HwY",
+          "title": "Mingaladon Railway Station",
+          "time": "06:30 PM",
+          "latitude": "16.930849",
+          "longitude": "96.145003"
+        },
+        {
+          "slug": "mingaladon-market-railway-station-lCJchN",
+          "title": "Mingaladon Market Railway Station",
+          "time": "06:35 PM",
+          "latitude": "16.937135",
+          "longitude": "96.138485"
+        },
+        {
+          "slug": "kyait-ka-lei-railway-station-IPMR1C",
+          "title": "Kyait Ka Lei Railway Station",
+          "time": "06:40 PM",
+          "latitude": "16.94071",
+          "longitude": "96.12768"
+        },
+        {
+          "slug": "golf-course-railway-station-0eVKKo",
+          "title": "Golf Course Railway Station",
+          "time": "06:45 PM",
+          "latitude": "16.93551",
+          "longitude": "96.10444"
+        },
+        {
+          "slug": "da-nyin-gone-railway-station-mxkghY",
+          "title": "Da Nyin Gone Railway Station",
+          "time": "06:50 PM",
+          "latitude": "16.932804",
+          "longitude": "96.093874"
+        },
+        {
+          "slug": "aung-san-railway-station-3syrHS",
+          "title": "Aung San Railway Station",
+          "time": "06:55 PM",
+          "latitude": "16.91503",
+          "longitude": "96.09288"
+        },
+        {
+          "slug": "phawt-kan-railway-station-4KJGj9",
+          "title": "Phawt Kan Railway Station",
+          "time": "07:00 PM",
+          "latitude": "16.90765",
+          "longitude": "96.09283"
+        },
+        {
+          "slug": "ywa-ma-railway-station-mPA80b",
+          "title": "Ywa Ma Railway Station",
+          "time": "07:05 PM",
+          "latitude": "16.89789",
+          "longitude": "96.09896"
+        },
+        {
+          "slug": "insein-railway-station-n8QrlP",
+          "title": "Insein Railway Station",
+          "time": "07:10 PM",
+          "latitude": "16.88499",
+          "longitude": "96.107076"
+        }
+      ]
+    }
+  ]
+}

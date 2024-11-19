@@ -92,23 +92,28 @@ const onLoad = async () => {
   queryParameters.value.search = search.value;
   queryParameters.value.page = page.value;
 
-  await ListStore.get(queryParameters.value);
-  list.value.push(...(ListStore.getResponse?.data ?? []));
-  last_page.value = ListStore.getResponse?.meta.last_page ?? null;
-
-  if (page.value >= last_page.value) {
-    finished.value = true;
-  } else {
-    page.value++;
-  }
-
-  if (ListStore.getErrorMessage) {
-    errorMessage.value = ListStore.getErrorMessage;
-    error.value = true;
-  }
-
+  list.value.push(...(ListStore ?? []));
+  finished.value = true;
   loading.value = false;
   refreshing.value = false;
+
+  // await ListStore.get(queryParameters.value);
+  // list.value.push(...(ListStore.getResponse?.data ?? []));
+  // last_page.value = ListStore.getResponse?.meta.last_page ?? null;
+
+  // if (page.value >= last_page.value) {
+  //   finished.value = true;
+  // } else {
+  //   page.value++;
+  // }
+
+  // if (ListStore.getErrorMessage) {
+  //   errorMessage.value = ListStore.getErrorMessage;
+  //   error.value = true;
+  // }
+
+  // loading.value = false;
+  // refreshing.value = false;
 };
 
 const onRefresh = () => {

@@ -177,6 +177,7 @@
 import { nextTick, onMounted, ref } from "vue";
 import { useRouter, useRoute } from "vue-router";
 import { useRouteDetailStore } from "@/stores/routeDetailStore";
+import routeJson from "@/assets/json/route.json";
 
 const router = useRouter();
 const route = useRoute();
@@ -194,14 +195,18 @@ var map = null;
 const onClickLeft = () => history.back();
 
 const fetchRouteDetail = async () => {
-  await routeDetailStore.get(
-    route.params.slug,
-    route.query.origin_station_slug,
-    route.query.destination_station_slug
-  );
-  routeDetail.value = routeDetailStore.getResponse?.data;
-  errorMessage.value = routeDetailStore.getErrorMessage;
+  routeDetail.value = routeJson;
+  errorMessage.value = null;
   refreshing.value = false;
+
+  // await routeDetailStore.get(
+  //   route.params.slug,
+  //   route.query.origin_station_slug,
+  //   route.query.destination_station_slug
+  // );
+  // routeDetail.value = routeDetailStore.getResponse?.data;
+  // errorMessage.value = routeDetailStore.getErrorMessage;
+  // refreshing.value = false;
 };
 
 const initMap = () => {

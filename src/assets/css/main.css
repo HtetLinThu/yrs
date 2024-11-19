@@ -26,3 +26,7 @@
 .van-tabs--line .van-tabs__wrap {
   border-radius: 10px !important;
 }
+
+.leaflet-bottom {
+  display: none !important;
+}
