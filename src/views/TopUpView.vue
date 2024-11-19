@@ -88,8 +88,6 @@ const onSubmit = async (values) => {
 
   await topUpStore.store(values.amount, values.description, values.image);
 
-  console.log(topUpStore.getResponse);
-
   if (topUpStore.getErrorMessage) {
     if (topUpStore.getErrors) {
       errors.value = {
