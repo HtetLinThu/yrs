@@ -1,4 +1,4 @@
-import "vant/lib/index.css";
+import './node_modules/vant/lib/index.css';
 import "./assets/css/main.css";
 import "viewerjs/dist/viewer.css";
 
