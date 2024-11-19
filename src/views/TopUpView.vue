@@ -77,7 +77,7 @@ const submitBtnLoading = ref(false);
 
 const onClickLeft = () => history.back();
 
-const onSubmit = async (values) => {
+const onSubmit = (values) => {
   submitBtnLoading.value = true;
 
   errors.value = {
