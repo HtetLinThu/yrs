@@ -6,7 +6,7 @@ export default {
     extend: {
       backgroundImage: {
         // theme: "linear-gradient(90deg, #3CACB6 0%, #8CCEAD 90%)",
-        theme: "#1cbc9b",
+        theme: "#1CBC9B",
       },
       borderColor: {
         theme: "#1CBC9B",
