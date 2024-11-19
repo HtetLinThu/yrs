@@ -88,8 +88,6 @@ const onSubmit = async (values) => {
 
   await topUpStore.store(values.amount, values.description, values.image);
 
-  console.log(topUpStore.getResponse);
-
   if (topUpStore.getErrorMessage) {
     if (topUpStore.getErrors) {
       errors.value = {
@@ -108,7 +106,7 @@ const onSubmit = async (values) => {
     }
   } else {
     showSuccessToast(topUpStore.getResponse?.message);
-    // router.push(`top-up-history/${topUpStore.getResponse?.data?.trx_id}`);
+    router.push(`top-up-history/${topUpStore.getResponse?.data?.trx_id}`);
   }
 
   submitBtnLoading.value = false;
