@@ -6,12 +6,7 @@
       <RouterView />
     </div>
 
-    <van-tabbar
-      v-if="showTabBar"
-      v-model="active"
-      active-color="#1CBC9B"
-      safe-area-inset-bottom
-    >
+    <van-tabbar v-if="showTabBar" v-model="active" active-color="#1CBC9B">
       <van-tabbar-item icon="home-o" replace to="/">Home</van-tabbar-item>
       <van-tabbar-item icon="exchange" replace to="/route"
         >Route</van-tabbar-item
