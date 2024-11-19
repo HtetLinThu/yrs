@@ -105,14 +105,8 @@ const onSubmit = async (values) => {
       };
     }
   } else {
-    console.log(topUpStore.getResponse);
-
-    setTimeout(() => {
-      console.log(topUpStore.getResponse);
-    }, 3000);
-
     showSuccessToast(topUpStore.getResponse?.message);
-    // router.push(`top-up-history/${topUpStore.getResponse?.data?.trx_id}`);
+    router.push(`top-up-history/${topUpStore.getResponse?.data?.trx_id}`);
   }
 
   submitBtnLoading.value = false;
