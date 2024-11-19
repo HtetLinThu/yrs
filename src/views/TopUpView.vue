@@ -86,7 +86,7 @@ const onSubmit = async (values) => {
     image: "",
   };
 
-  await topUpStore.store(values.amount, values.description, values.image);
+  topUpStore.store(values.amount, values.description, values.image);
 
   if (topUpStore.getErrorMessage) {
     if (topUpStore.getErrors) {
@@ -105,10 +105,8 @@ const onSubmit = async (values) => {
       };
     }
   } else {
-    setTimeout(() => {
-      showSuccessToast(topUpStore.getResponse?.message);
-      router.push(`top-up-history/${topUpStore.getResponse?.data?.trx_id}`);
-    }, 1000);
+    showSuccessToast(topUpStore.getResponse?.message);
+    router.push(`top-up-history/${topUpStore.getResponse?.data?.trx_id}`);
   }
 
   submitBtnLoading.value = false;

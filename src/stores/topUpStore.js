@@ -15,7 +15,7 @@ export const useTopUpStore = defineStore("topUpStore", {
     getErrors: (state) => state.errors,
   },
   actions: {
-    async store(amount, description, image) {
+    store(amount, description, image) {
       try {
         let formData = new FormData();
         formData.append("amount", amount);
@@ -25,15 +25,11 @@ export const useTopUpStore = defineStore("topUpStore", {
           formData.append("image", image[0].file);
         }
 
-        let response = await axiosInstance.post(
-          `user-portal/top-up`,
-          formData,
-          {
-            headers: {
-              "Content-Type": "multipart/form-data",
-            },
-          }
-        );
+        let response = axiosInstance.post(`user-portal/top-up`, formData, {
+          headers: {
+            "Content-Type": "multipart/form-data",
+          },
+        });
 
         this.response = response.data ?? null;
         this.error = null;
