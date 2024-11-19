@@ -1,5 +1,6 @@
 import "vant/lib/index.css";
 import "viewerjs/dist/viewer.css";
+import "leaflet/dist/leaflet.css";
 import "./assets/css/main.css";
 
 import { createApp } from "vue";
@@ -42,6 +43,7 @@ import router from "./router";
 import SecureLS from "secure-ls";
 import VueViewer from "v-viewer";
 import VueQrcode from "@chenfengyuan/vue-qrcode";
+import L from "leaflet";
 
 window.ls = new SecureLS({
   encodingType: import.meta.env.VITE_LS_ENCODING_TYPE,
