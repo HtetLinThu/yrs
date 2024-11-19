@@ -15,8 +15,16 @@ export const useTopUpStore = defineStore("topUpStore", {
     getErrors: (state) => state.errors,
   },
   actions: {
-    async store(formData) {
+    async store(amount, description, image) {
       try {
+        let formData = new FormData();
+        formData.append("amount", amount);
+        formData.append("description", description);
+
+        if (image.length > 0) {
+          formData.append("image", image[0].file);
+        }
+
         let response = await axiosInstance.post(
           `user-portal/top-up`,
           formData,
@@ -27,11 +35,15 @@ export const useTopUpStore = defineStore("topUpStore", {
           }
         );
 
+        console.log('api success');
+
         this.response = response.data ?? null;
         this.error = null;
         this.errorMessage = null;
         this.errors = [];
       } catch (error) {
+        console.log('api error');
+
         this.response = null;
         this.error = error;
         this.errorMessage = error?.response?.data?.message ?? null;
