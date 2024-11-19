@@ -15,7 +15,7 @@ export const useTopUpStore = defineStore("topUpStore", {
     getErrors: (state) => state.errors,
   },
   actions: {
-    store(amount, description, image) {
+    async store(amount, description, image) {
       try {
         let formData = new FormData();
         formData.append("amount", amount);

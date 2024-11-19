@@ -77,7 +77,7 @@ const submitBtnLoading = ref(false);
 
 const onClickLeft = () => history.back();
 
-const onSubmit = (values) => {
+const onSubmit = async (values) => {
   submitBtnLoading.value = true;
 
   errors.value = {
@@ -86,7 +86,7 @@ const onSubmit = (values) => {
     image: "",
   };
 
-  topUpStore.store(values.amount, values.description, values.image);
+  await topUpStore.store(values.amount, values.description, values.image);
 
   if (topUpStore.getErrorMessage) {
     if (topUpStore.getErrors) {
@@ -106,7 +106,7 @@ const onSubmit = (values) => {
     }
   } else {
     console.log(topUpStore.getResponse);
-    
+
     setTimeout(() => {
       console.log(topUpStore.getResponse);
     }, 3000);
