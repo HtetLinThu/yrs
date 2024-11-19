@@ -29,9 +29,12 @@ axiosInstance.interceptors.request.use(
 
 axiosInstance.interceptors.response.use(
   function (response) {
+    alert(response);
     return response;
   },
   function (error) {
+    alert(error);
+
     if (error.response) {
       const status = error.response.status;
 
