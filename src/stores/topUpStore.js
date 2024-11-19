@@ -25,7 +25,7 @@ export const useTopUpStore = defineStore("topUpStore", {
           formData.append("image", image[0].file);
         }
 
-        let response = axiosInstance.post(`user-portal/top-up`, formData, {
+        let response = await axiosInstance.post(`user-portal/top-up`, formData, {
           headers: {
             "Content-Type": "multipart/form-data",
           },
