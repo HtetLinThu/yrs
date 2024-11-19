@@ -53,6 +53,12 @@ axiosInstance.interceptors.response.use(
           message: error.response.data.message,
           position: "bottom",
         });
+      } else if (status == 413) {
+        showNotify({
+          type: "danger",
+          message: '413 Request Entity Too Large',
+          position: "bottom",
+        });
       }
     } else {
       console.error("Error", error.message);
