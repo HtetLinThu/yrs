@@ -90,7 +90,7 @@ const onSubmit = async (values) => {
   formData.append("amount", values.amount);
   formData.append("description", values.description);
 
-  if (image.length > 0) {
+  if (values.image.length > 0) {
     formData.append("image", values.image[0].file);
   }
 
