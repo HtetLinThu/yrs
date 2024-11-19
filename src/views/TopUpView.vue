@@ -105,6 +105,7 @@ const onSubmit = async (values) => {
       };
     }
   } else {
+    console.log(topUpStore.getResponse);
     showSuccessToast(topUpStore.getResponse?.message);
     router.push(`top-up-history/${topUpStore.getResponse?.data?.trx_id}`);
   }
