@@ -1,6 +1,6 @@
-import './node_modules/vant/lib/index.css';
+import "vant/lib/index.css";
 import "./assets/css/main.css";
-import "./node_modules/viewerjs/dist/viewer.css";
+import "viewerjs/dist/viewer.css";
 
 import { createApp } from "vue";
 import { createPinia } from "pinia";
