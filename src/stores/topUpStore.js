@@ -16,31 +16,32 @@ export const useTopUpStore = defineStore("topUpStore", {
   },
   actions: {
     async store(amount, description, image) {
-      try {
-        let formData = new FormData();
-        formData.append("amount", amount);
-        formData.append("description", description);
+      let formData = new FormData();
+      formData.append("amount", amount);
+      formData.append("description", description);
 
-        if (image.length > 0) {
-          formData.append("image", image[0].file);
-        }
+      if (image.length > 0) {
+        formData.append("image", image[0].file);
+      }
 
-        let response = await axiosInstance.post(`user-portal/top-up`, formData, {
+      axiosInstance
+        .post(`user-portal/top-up`, formData, {
           headers: {
             "Content-Type": "multipart/form-data",
           },
+        })
+        .then(function (response) {
+          this.response = response.data ?? null;
+          this.error = null;
+          this.errorMessage = null;
+          this.errors = [];
+        })
+        .catch(function (error) {
+          this.response = null;
+          this.error = error;
+          this.errorMessage = error?.response?.data?.message ?? null;
+          this.errors = error?.response?.data?.errors ?? null;
         });
-
-        this.response = response.data ?? null;
-        this.error = null;
-        this.errorMessage = null;
-        this.errors = [];
-      } catch (error) {
-        this.response = null;
-        this.error = error;
-        this.errorMessage = error?.response?.data?.message ?? null;
-        this.errors = error?.response?.data?.errors ?? null;
-      }
     },
   },
 });
