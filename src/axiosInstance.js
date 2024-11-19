@@ -29,21 +29,9 @@ axiosInstance.interceptors.request.use(
 
 axiosInstance.interceptors.response.use(
   function (response) {
-    showNotify({
-      type: "danger",
-      message: response,
-      position: "bottom",
-    });
-
     return response;
   },
   function (error) {
-    showNotify({
-      type: "danger",
-      message: error,
-      position: "bottom",
-    });
-
     if (error.response) {
       const status = error.response.status;
 
