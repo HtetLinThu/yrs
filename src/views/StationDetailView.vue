@@ -118,12 +118,12 @@ const initMap = () => {
     15
   );
 
-  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    attribution:
-      '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-  }).addTo(map);
+  // L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  //   attribution:
+  //     '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+  // }).addTo(map);
 
-  // L.tileLayer('https://api.maptiler.com/maps/streets-v2/{z}/{x}/{y}.png?key=lGRhuk24oNhhSOVUzxcs').addTo(map);
+  L.tileLayer('https://api.maptiler.com/maps/streets-v2/{z}/{x}/{y}.png?key=lGRhuk24oNhhSOVUzxcs').addTo(map);
 
   var stationMarker = L.icon({
     iconUrl: stationMarker,

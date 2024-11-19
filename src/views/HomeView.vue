@@ -67,7 +67,7 @@
     </div>
 
     <div class="h-screen">
-      <div id="map" class="h-4/6 rounded-lg shadow-md" style="z-index: 0;"></div>
+      <div id="map" class="h-3/6 rounded-lg shadow-md" style="z-index: 0;"></div>
     </div>
   </div>
 
@@ -245,12 +245,12 @@ const initMap = () => {
 
   map = L.map("map").setView([16.781076, 96.161943], 13);
 
-  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    attribution:
-      '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-  }).addTo(map);
+  // L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  //   attribution:
+  //     '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+  // }).addTo(map);
 
-  // L.tileLayer('https://api.maptiler.com/maps/streets-v2/{z}/{x}/{y}.png?key=lGRhuk24oNhhSOVUzxcs').addTo(map);
+  L.tileLayer('https://api.maptiler.com/maps/streets-v2/{z}/{x}/{y}.png?key=lGRhuk24oNhhSOVUzxcs').addTo(map);
 
   navigator.geolocation.getCurrentPosition((position) => {
     map.setView([position.coords.latitude, position.coords.longitude], 13);
