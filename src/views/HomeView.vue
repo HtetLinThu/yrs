@@ -67,7 +67,7 @@
     </div>
 
     <div class="h-screen">
-      <div id="map" class="h-7/12 rounded-lg shadow-md"></div>
+      <div id="map" class="h-3/6 rounded-lg shadow-md"></div>
     </div>
   </div>
 
