@@ -92,7 +92,7 @@ const onSubmit = async (values) => {
 
   setTimeout(() => {
     console.log(topUpStore.getResponse);
-  }, 3000);
+  }, 5000);
 
   if (topUpStore.getErrorMessage) {
     if (topUpStore.getErrors) {
@@ -112,7 +112,7 @@ const onSubmit = async (values) => {
     }
   } else {
     showSuccessToast(topUpStore.getResponse?.message);
-    router.push(`top-up-history/${topUpStore.getResponse?.data?.trx_id}`);
+    // router.push(`top-up-history/${topUpStore.getResponse?.data?.trx_id}`);
   }
 
   submitBtnLoading.value = false;

@@ -24,26 +24,32 @@ export const useTopUpStore = defineStore("topUpStore", {
         formData.append("image", image[0].file);
       }
 
-      axiosInstance
-        .post(`user-portal/top-up`, formData, {
-          headers: {
-            "Content-Type": "multipart/form-data",
-          },
-        })
-        .then(function (response) {
-          console.log('api success');
-          this.response = response.data ?? null;
-          this.error = null;
-          this.errorMessage = null;
-          this.errors = [];
-        })
-        .catch(function (error) {
-          console.log('api error');
-          this.response = null;
-          this.error = error;
-          this.errorMessage = error?.response?.data?.message ?? null;
-          this.errors = error?.response?.data?.errors ?? null;
-        });
+      try {
+        let response = await axiosInstance.post(
+          `user-portal/top-up`,
+          formData,
+          {
+            headers: {
+              "Content-Type": "multipart/form-data",
+            },
+          }
+        );
+
+        console.log(response.data);
+        console.log("API success");
+
+        this.response = response.data ?? null;
+        this.error = null;
+        this.errorMessage = null;
+        this.errors = [];
+      } catch (error) {
+        console.log("API error");
+
+        this.response = null;
+        this.error = error;
+        this.errorMessage = error?.response?.data?.message ?? null;
+        this.errors = error?.response?.data?.errors ?? null;
+      }
     },
   },
 });
