@@ -86,7 +86,15 @@ const onSubmit = async (values) => {
     image: "",
   };
 
-  await topUpStore.store(values.amount, values.description, values.image);
+  let formData = new FormData();
+  formData.append("amount", amount);
+  formData.append("description", description);
+
+  if (image.length > 0) {
+    formData.append("image", image[0].file);
+  }
+
+  await topUpStore.store(formData);
 
   if (topUpStore.getErrorMessage) {
     if (topUpStore.getErrors) {
